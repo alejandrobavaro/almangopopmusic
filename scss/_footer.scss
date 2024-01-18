@@ -1,0 +1,35 @@
+footer {
+    font-size: 12px;
+    padding: 1%;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255) solid;
+    margin: none;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footerElements {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .linksFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  
+    div {
+      list-style: none;
+    }
+  }
+  
+  .img1Footer img, .img2Footer img {
+    max-height: 3rem;
+  }
+  

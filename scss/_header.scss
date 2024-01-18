@@ -1,0 +1,15 @@
+header {
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+#navbar {
+  background-color: transparent;
+}
+
+.navBar {
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+}

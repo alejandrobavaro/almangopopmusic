@@ -1,36 +1,19 @@
-/* ~~ Estilos del body de página ~~ */
 body {
   background-color: #000000;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif, "Arial Narrow Bold", sans-serif;
+  align-items: center;
 }
 
 h1 {
   color: rgb(255, 123, 0);
-  font-size: large;
 }
 
-h2,
-h4 {
+h2, h4 {
   color: #ff5900;
-  font-size: medium;
 }
 
-label {
-  color: #ffede3;
-}
-
-.buttonFor {
-  background-color: #ffffff;
-}
-
-form {
-  background-color: rgb(104, 103, 103);
-}
-
-h3,
-h5 {
+h3, h5 {
   color: rgb(255, 255, 255);
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif,
-    "Arial Narrow Bold", sans-serif;
   font-style: normal;
   font-size: large;
   margin-top: 11px;
@@ -39,8 +22,7 @@ h5 {
 }
 
 h6 {
-  color: black;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(234, 142, 61);
   font-style: normal;
   font-size: 10px;
   margin-top: 11px;
@@ -48,10 +30,16 @@ h6 {
   padding-left: 15px;
 }
 
+li {
+  color: white;
+}
+
+ol {
+  list-style-type: circle;
+}
+
 p {
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: small;
   font-style: normal;
   text-align: justify;
 }
@@ -61,44 +49,9 @@ a:link {
   color: aqua;
   text-decoration: none;
 }
-
-/* Link visitado */
 a:visited {
   color: #ffffff;
   text-decoration: none;
-}
-
-main {
-  border: 10px rgb(255, 255, 255);
-  color: #ffd1ba;
-  align-items: center;
-}
-
-.navBar {
-  background-color: orangered;
-  display: flex;
-  justify-content: center;
-}
-
-.colCostado1 {
-  height: auto;
-  max-width: 50%;
-}
-
-header {
-  width: 100%;
-  position: relative;
-  z-index: 100;
-}
-
-#navbar {
-  background-color: transparent;
-}
-
-.bottonDonar {
-  background-color: orangered;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: small;
 }
 
 .videos1 {
@@ -106,7 +59,6 @@ header {
   height: 100px;
 }
 
-/* ~~ Estilos de footer de página ~~ */
 footer {
   font-size: 12px;
   padding: 1%;
@@ -133,30 +85,91 @@ footer {
   margin-left: 5rem;
   margin-right: 5rem;
 }
-
 .linksFooter div {
   list-style: none;
 }
 
-.img1Footer img,
-.img2Footer img {
+.img1Footer img, .img2Footer img {
   max-height: 3rem;
 }
 
+header {
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+#navbar {
+  background-color: transparent;
+}
+
+.navBar {
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  border: 10px rgb(255, 255, 255);
+  color: #ffd1ba;
+  align-items: center;
+}
+
+.colCostado1 {
+  height: auto;
+  max-width: 50%;
+}
+
+label {
+  color: #ffede3;
+}
+
+.buttonFor {
+  background-color: #ffffff;
+}
+
+.mapaEstilo {
+  background-color: orangered;
+}
+
+.imagenCentro {
+  border: 3px orangered solid;
+  margin: 10px 80px;
+}
+
+.bottonDonar {
+  background-color: orangered;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: small;
+}
+
+form {
+  background-color: rgb(104, 103, 103);
+}
+
+.formularioContacto {
+  color: #ffd1ba;
+  text-align: justify;
+}
+
+.parrafoContacto {
+  font-size: small;
+  color: aqua;
+}
+
+/* REPRODUCTOR DE AUDIO */
 @media screen and (max-width: 420px) {
   .linksFooter div {
     margin-right: 0.3rem;
     margin-left: 0.3rem;
   }
 }
-
 @media screen and (min-width: 421px) and (max-width: 767px) {
   .linksFooter div {
     margin-right: 1rem;
     margin-left: 1rem;
   }
 }
-
 @media screen and (max-width: 767px) {
   .footerElements {
     flex-direction: column;
@@ -176,110 +189,4 @@ footer {
     margin-bottom: 0.5rem;
   }
 }
-
-ol {
-  list-style-type: circle;
-}
-
-.formularioContacto {
-  color: #ffd1ba;
-  text-align: justify;
-}
-
-.parrafoContacto {
-  font-size: small;
-  color: aqua;
-}
-
-.mapaEstilo {
-  background-color: orangered;
-}
-
-.imagenCentro {
-  border: 3px orangered solid;
-  margin: 10px 80px;
-}
-
-
-
-
-
-/* REPRODUCTOR DE AUDIO */
-
-
-.container {
-  width: 50%;
-  margin: auto;
-  display: block;
-  margin-top: 1em; }
-
-#player {
-  background-color: gray;
-  padding: 1em 1em 1em 1em;
- }
-
-.caratula {
-  width: 50%;
-  overflow: hidden;
-  height: 50%;
-  position: relative; }
-  .caratula img {
-    width: 100%;
-    position: relative; }
-
-.controls {
-  padding: 1em; }
-  .controls ul li {
-    display: inline-block;
-    margin-right: .17em;
-    padding: .9em;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 10%;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7f8c8d), color-stop(100%, #95a5a6));
-    background-image: -webkit-linear-gradient(top, #7f8c8d, #95a5a6);
-    background-image: -moz-linear-gradient(top, #7f8c8d, #95a5a6);
-    background-image: -o-linear-gradient(top, #7f8c8d, #95a5a6);
-    background-image: linear-gradient(top, #7f8c8d, #95a5a6);
-    text-align: center;
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-    -webkit-transition-timing-function: ease-in;
-    -moz-transition-timing-function: ease-in;
-    -o-transition-timing-function: ease-in;
-    transition-timing-function: ease-in; }
-    
-.play {
-  padding: 1.6em !important; }
-
-.time {
-  width: 100%;
-  background-color: #ced2d3;
-  height: 8px;
-  display: block;
-  overflow: hidden; }
-
-
-h2 {
-  font-size: 1.7em;
-  margin-bottom: .2em;
-  font-weight: 700; }
-
-h3 {
-  font-size: 1.5em;
-  font-weight: 400;
-  color: #a9afb3; }
-
-.elapsed {
-  margin-bottom: 1em;
-  font-size: .8em;
-  color: orange; }
 

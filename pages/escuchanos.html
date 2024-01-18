@@ -4,7 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Escuchanos</title>
+  <meta name="description" content="Somos un grupo de músicos aventureros especializados en el area del espectáculo. Trabajamos con música
+  propia de caracter original y covers. Contamos con el conocimiento, el equipamento y la tecnología
+  profesional para poder brindarle el mejor servicio a sus eventos. También trabajamos con Vj y visuales en
+  vivo">
+  <meta name="keywords" content="Banda, Música Pop, Música Original, Autor, Ale Gondra Music, Almango, Almango Music, Almango Pop, Miranda, Tan Bionica">
+
+
+  <title>Escuchanos - Almango Pop Music Band</title>
 
   <!-- BOOTSTRAP LINK -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -30,7 +37,7 @@
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
 
-          <a class="navbar-brand" href="index.html"><i class="bi bi-file-earmark-music"></i></a>
+          <a class="navbar-brand" href="../index.html"><i class="bi bi-file-earmark-music"></i></a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,14 +47,19 @@
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
               <a class="nav-link" href="contacto.html">Contacto</a>
-              <a class="nav-link" href="nuestrahistoria.html">Historia</a>
-              <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+              <a class="nav-link" href="historia.html">Historia</a>
+              <a class="nav-link" href="biografias.html">Biografías</a>
               <a class="nav-link" href="escuchanos.html">Escuchanos</a>
-              <a class="nav-link" href="tiendaalmango.html">Tienda</a>
-              <a class="nav-link" href="ayudanosacrecer.html">Ayudanos</a>
-              <a class="nav-link" href="ridertecnico.html">Rider</a>
+              <a class="nav-link" href="tienda.html">Tienda</a>
+              <a class="nav-link" href="ayudanos.html">Ayudanos</a>
+              <a class="nav-link" href="rider.html">Rider</a>
+              <a class="nav-link" href="clubdefans.html">Club de Fans</a>
+              <a class="nav-link" href="prensa.html">Prensa</a>
+              <a class="nav-link" href="giras.html">Giras</a>
+              <a class="nav-link" href="proximasfechas.html">Próximas Fechas</a>
             </div>
           </div>
+          <a class="navbar-brand" href="../index.html"><i class="bi bi-file-earmark-music"></i></a>
         </div>
       </nav>
     </div>
@@ -55,61 +67,87 @@
   <hr class="border border-danger border-1 opacity-100">
 
 
-  <main>
-    <img src="../img/04-img-arriba/headcarrusel10b.jpg" alt="banneralmangopopmusic" width="500" height="100"
-      align="center">
-    <img src="../img/04-img-arriba/headcarrusel13.jpg" alt="bannercarru2" width="500" height="100" align="center">
 
-    <h3>Discos de Almango Pop</h3>
-    <li>Ponele Onda</li>
-    <li>Con vos hasta la Luna</li>
-    <li>Fundidos in the Night</li>
-    <li>Nadie nos va a parar</li>
-    <li>A nada de serlo Todo</li>
-    <li>Con los pies en la Tierra</Li>
+  <!-- ESTRUCTURA GRID BOOTSTRAP -->
 
-
-
-
-
-    <!-- /* REPRODUCTOR DE AUDIO */ -->
-
-    <section class="container">
-      <div id="player">
-        <div class="caratula">
-          <img src="../img/06-tapasdiscos/tapaponeleonda2.jpg">
-         <div class="poneleondadisco1">
+  <!-- Carrusell pequeño arriba izquierda -->
+  <div class="container text-center">
+    <div class="row row-cols-3">
+      <div class="col">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/04-img-arriba/headcarrusel10b.jpg" class="d-block w-100" alt="bannercarru2">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/04-img-arriba/headcarrusel10c.jpg" class="d-block w-100" alt="headcarrusel10a">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/04-img-arriba/headcarrusel10a.jpg" class="d-block w-100" alt="headcarrusell11">
+            </div>
           </div>
-        </div>
-        <div class="time">
-          <div class="progress"></div>
-        </div>
-        <div>
-          <div class="elapsed">2:40</div>
-          <h2>Almango Pop Music</h2>
-          <h3>Adonde Fuiste</h3>
-        </div>
-        <div class="controls">
-          <ul>
-            <li>
-              <div class="icon-backward btn"></div>
-            </li>
-            <li>
-              <div class="icon-pause btn"></div>
-            </li>
-            <li class="play">
-              <div class="icon-play btn"></div>
-            </li>
-            <li>
-              <div class="icon-stop btn"></div>
-            </li>
-            <li>
-              <div class="icon-forward btn"></div>
-            </li>
-          </ul>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
-    </section>
+
+      <!-- LOGO CENTRO -->
+      <div class="col-4">
+
+        <img src="../img/02-logostitulos/banneralmangopopmusic.jpg" class="img-fluid" alt="logoalmangomusicrecords">
+        <hr class="border border-danger border-2 opacity-100">
+
+      </div>
+
+      <!-- Carrusell pequeño arriba derecha -->
+      <div class="col">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/04-img-arriba/headcarrusel10d.jpg" class="d-block w-100" alt="bannercarru6">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/04-img-arriba/headcarrusel10f.jpg" class="d-block w-100" alt="headcarrusel7">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/04-img-arriba/headcarrusel10c.jpg" class="d-block w-100" alt="headcarrusel10c">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carrusell LARGO costado izquierda -->
+
+      <div class="col colCostado1">
+
+        <h3>Discos de Almango Pop</h3>
+
+        <ol>
+        <li>DISCO PONELE ONDA <img src="../img/06-tapasdiscos/tapaponeleonda2.jpg" alt=""></li>
+        <li>DISCO CON VOS HASTA LA LUNA </li>
+        <li>Fundidos in the Night</li>
+        <li>Nadie nos va a parar</li>
+        <li>A nada de serlo Todo</li>
+        <li>Con los pies en la Tierra</Li>
+        </ol>
 
 
 
@@ -118,10 +156,90 @@
 
 
 
+      </div>
+
+
+      <!-- CENTRO -->
+      <div class="col-4">
+
+        <!-- /* REPRODUCTOR DE AUDIO */ -->
+
+        <section class="container">
+          <div id="player">
+            <div class="caratula">
+              <img src="../img/06-tapasdiscos/tapaponeleonda2.jpg">
+              <div class="poneleondadisco1">
+              </div>
+            </div>
+            <div class="time">
+              <div class="progress"></div>
+            </div>
+            <div>
+              <div class="elapsed">2:40</div>
+              <h2>Almango Pop Music</h2>
+              <h3>Adonde Fuiste</h3>
+            </div>
+            <div class="controls">
+              <ul>
+                <li>
+                  <div class="icon-backward btn"></div>
+                </li>
+                <li>
+                  <div class="icon-pause btn"></div>
+                </li>
+                <li class="play">
+                  <div class="icon-play btn"></div>
+                </li>
+                <li>
+                  <div class="icon-stop btn"></div>
+                </li>
+                <li>
+                  <div class="icon-forward btn"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <hr class="border border-danger border-1 opacity-100">
+
+      </div>
+
+      <!-- Carrusell LARGO costado derecha -->
+
+      <div class="col colCostado1">
+
+
+
+        <ol>
+          <li><a href="#">Primeros Pasos</a></li>
+          <li><a href="#">Componiendo</a></li>
+          <li><a href="">Gondra Estudio y Eventos</a></li>
+          <li><a href="">Primeros temas</a></li>
+          <li><a href="">Shows en vivo</a></li>
+          <li><a href="">Primer Disco "Ponele Onda"</a></li>
+          <li><a href="">Videoclip Good Morning Md</a>p</li>
+          <li><a href="">Las Almanguitas</a></li>
+          <li><a href="">Videoclip Ideal</a></li>
+        </ol>
 
 
 
 
+      </div>
+    </div>
+  </div>
+
+  <hr class="border border-danger border-1 opacity-100">
+
+
+  <section class="imagenCentro">
+    <iframe width="866" height="576"
+      src="https://www.youtube.com/embed/videoseries?si=YobZX3MkSchzcIQ3&amp;list=OLAK5uy_l7BEy6ieB3HCBEpyXg7XZ2x3ulEo1s24c"
+      title="Almango YouTube video player" class="container-fluid" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </section>
 
   </main>
 
