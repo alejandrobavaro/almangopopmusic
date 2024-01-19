@@ -1,6 +1,6 @@
 main {
   border: 10px rgb(255, 255, 255);
-  color: #ffd1ba;
+
   align-items: center;
 }
 
@@ -9,13 +9,16 @@ main {
   max-width: 50%;
 }
 
-label {
-  color: #ffede3;
+.logoPaypal {
+  width:50px;
+  height:50px;
 }
 
-.buttonFor {
-  background-color: #ffffff;
+.logowhattsapp {
+  width: 80px;
+  cursor: pointer;
 }
+
 
 .mapaEstilo {
   background-color: orangered;
@@ -24,12 +27,6 @@ label {
 .imagenCentro {
   border: 3px orangered solid;
   margin: 10px 80px;
-}
-
-.bottonDonar {
-  background-color: orangered;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: small;
 }
 
 

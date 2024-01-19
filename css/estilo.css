@@ -4,13 +4,21 @@ body {
   align-items: center;
 }
 
+p {
+  color: rgb(247, 227, 190);
+  font-style: normal;
+  text-align: justify;
+}
+
 h1 {
-  color: rgb(255, 123, 0);
+  color: white;
+  font-size: larger;
 }
 
 h2,
 h4 {
-  color: #ff5900;
+  color: #e3baa5;
+  font-size: larger;
 }
 
 h3,
@@ -24,7 +32,7 @@ h5 {
 }
 
 h6 {
-  color: rgb(234, 142, 61);
+  color: rgb(237, 228, 204);
   font-style: normal;
   font-size: 10px;
   margin-top: 11px;
@@ -41,13 +49,10 @@ ol {
   list-style-type: circle;
 }
 
-p {
-  color: white;
-  font-style: normal;
-  text-align: justify;
-}
-
 /* Link sin visitar todavia */
+a {
+  /* Link visitado */
+}
 a:link {
   color: aqua;
   text-decoration: none;
@@ -67,16 +72,8 @@ form {
 }
 
 .parrafoContacto {
-  font-size: small;
+  font-size: large;
   color: aqua;
-}
-
-.logowhattsapp {
-  width: 140px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  cursor: pointer;
 }
 
 footer {
@@ -132,7 +129,6 @@ header {
 
 main {
   border: 10px rgb(255, 255, 255);
-  color: #ffd1ba;
   align-items: center;
 }
 
@@ -141,12 +137,14 @@ main {
   max-width: 50%;
 }
 
-label {
-  color: #ffede3;
+.logoPaypal {
+  width: 50px;
+  height: 50px;
 }
 
-.buttonFor {
-  background-color: #ffffff;
+.logowhattsapp {
+  width: 80px;
+  cursor: pointer;
 }
 
 .mapaEstilo {
@@ -156,12 +154,6 @@ label {
 .imagenCentro {
   border: 3px orangered solid;
   margin: 10px 80px;
-}
-
-.bottonDonar {
-  background-color: orangered;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: small;
 }
 
 .cardAlineacion {
