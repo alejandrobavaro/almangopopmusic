@@ -1,27 +1,36 @@
 body {
   background-color: black;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif, "Arial Narrow Bold", sans-serif;
-  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 p {
-  color: rgb(247, 227, 190);
+  color: rgb(241, 225, 192);
   font-style: normal;
+  font-size: large;
   text-align: justify;
 }
 
 h1 {
   color: white;
-  font-size:larger;
+  font-size: x-large;
 }
 
-h2,
+h2{
+color: aquamarine;
+font-size: x-large;
+}
+
+h3{
+  color: rgb(255, 111, 0);
+}
+
 h4 {
   color: #e3baa5;
-  font-size:larger;
+  font-size: larger;
 }
 
-h3,
+
 h5 {
   color: rgb(255, 255, 255);
   font-style: normal;
@@ -57,7 +66,7 @@ a {
     text-decoration: none;
   }
 
-/* Link visitado */
+  /* Link visitado */
   &:visited {
     color: #ffffff;
     text-decoration: none;
@@ -70,12 +79,24 @@ a {
 }
 
 form {
-  background-color: rgb(104, 103, 103);
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 18px;
+  width: "100%";
+  height: "600px";
+  padding: 20px;
+  border-radius: 20px;
 }
 
+.botonEnviar {
+  background-color: rgb(102, 102, 102);
+  border-style: none;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
 
 .parrafoContacto {
-  font-size:large;
+  font-size: large;
   color: aqua;
 }
-

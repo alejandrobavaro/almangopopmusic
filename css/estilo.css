@@ -1,27 +1,34 @@
 body {
   background-color: black;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif, "Arial Narrow Bold", sans-serif;
-  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 p {
-  color: rgb(247, 227, 190);
+  color: rgb(241, 225, 192);
   font-style: normal;
+  font-size: large;
   text-align: justify;
 }
 
 h1 {
   color: white;
-  font-size: larger;
+  font-size: x-large;
 }
 
-h2,
+h2 {
+  color: aquamarine;
+  font-size: x-large;
+}
+
+h3 {
+  color: rgb(255, 111, 0);
+}
+
 h4 {
   color: #e3baa5;
   font-size: larger;
 }
 
-h3,
 h5 {
   color: rgb(255, 255, 255);
   font-style: normal;
@@ -68,7 +75,21 @@ a:visited {
 }
 
 form {
-  background-color: rgb(104, 103, 103);
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 18px;
+  width: "100%";
+  height: "600px";
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.botonEnviar {
+  background-color: rgb(102, 102, 102);
+  border-style: none;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
 }
 
 .parrafoContacto {
@@ -123,6 +144,8 @@ header {
 
 .navBar {
   background-color: orangered;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   display: flex;
   justify-content: center;
 }
@@ -148,7 +171,14 @@ main {
 }
 
 .mapaEstilo {
-  background-color: orangered;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 20px;
+  width: "100%";
+  height: "600px";
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .imagenCentro {
@@ -165,6 +195,18 @@ main {
 .formularioContacto {
   color: #ffd1ba;
   text-align: center;
+}
+
+.tarjetaGaleria {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 20px;
+  width: "100%";
+  height: "600px";
+  padding: 20px;
+  border-radius: 20px;
+  border-color: orangered;
 }
 
 @media screen and (max-width: 420px) {

@@ -21,7 +21,14 @@ main {
 
 
 .mapaEstilo {
-  background-color: orangered;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 20px;
+  width: "100%";
+  height: "600px";
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .imagenCentro {
@@ -40,4 +47,16 @@ main {
 .formularioContacto {
   color: #ffd1ba;
     text-align: center;
+}
+
+.tarjetaGaleria {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 20px;
+  width: "100%";
+  height: "600px";
+  padding: 20px;
+  border-radius: 20px;
+  border-color: orangered;
 }
