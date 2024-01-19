@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: black;
   font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif, "Arial Narrow Bold", sans-serif;
   align-items: center;
 }
@@ -8,11 +8,13 @@ h1 {
   color: rgb(255, 123, 0);
 }
 
-h2, h4 {
+h2,
+h4 {
   color: #ff5900;
 }
 
-h3, h5 {
+h3,
+h5 {
   color: rgb(255, 255, 255);
   font-style: normal;
   font-size: large;
@@ -32,6 +34,7 @@ h6 {
 
 li {
   color: white;
+  list-style-type: none;
 }
 
 ol {
@@ -57,6 +60,23 @@ a:visited {
 .videos1 {
   width: 100px;
   height: 100px;
+}
+
+form {
+  background-color: rgb(104, 103, 103);
+}
+
+.parrafoContacto {
+  font-size: small;
+  color: aqua;
+}
+
+.logowhattsapp {
+  width: 140px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
 }
 
 footer {
@@ -89,7 +109,8 @@ footer {
   list-style: none;
 }
 
-.img1Footer img, .img2Footer img {
+.img1Footer img,
+.img2Footer img {
   max-height: 3rem;
 }
 
@@ -143,21 +164,17 @@ label {
   font-size: small;
 }
 
-form {
-  background-color: rgb(104, 103, 103);
+.cardAlineacion {
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 10px;
 }
 
 .formularioContacto {
   color: #ffd1ba;
-  text-align: justify;
+  text-align: center;
 }
 
-.parrafoContacto {
-  font-size: small;
-  color: aqua;
-}
-
-/* REPRODUCTOR DE AUDIO */
 @media screen and (max-width: 420px) {
   .linksFooter div {
     margin-right: 0.3rem;
@@ -190,3 +207,4 @@ form {
   }
 }
 
+/*# sourceMappingURL=estilo.css.map */
