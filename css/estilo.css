@@ -203,12 +203,22 @@ main {
   border-color: orangered;
 }
 
+.tarjetaGaleria1 {
+  font-size: xx-large;
+  text-align: justify;
+  border-radius: 20px;
+  border: orangered 5px dotted;
+}
+
 /*******TIENDA********/
 .botonComprar {
-  background-color: black;
-  font-size: large;
+  background: orangered;
+  font-size: small;
   border-radius: 10px;
-  border: 5px solid;
+  border: 2px gray solid;
+}
+.botonComprar .card1 {
+  background: linear-gradient(black, orangered);
 }
 
 .card-title {
@@ -251,6 +261,13 @@ main {
   margin: 10px 10px;
   padding: 10px;
   margin: auto;
+}
+
+.gridEstilo1 {
+  color: white;
+  border-radius: 20px;
+  border: 3px orangered solid;
+  font-size: x-large;
 }
 
 @media screen and (max-width: 420px) {
