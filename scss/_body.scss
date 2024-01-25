@@ -7,7 +7,7 @@ body {
 p {
   color: rgb(241, 225, 192);
   font-style: normal;
-  font-size: small;
+  font-size: large;
   text-align: justify;
 }
 
@@ -51,6 +51,7 @@ h6 {
 
 li {
   color: white;
+  font-size: larger;
   list-style-type: none;
 }
 
@@ -62,13 +63,13 @@ ol {
 /* Link sin visitar todavia */
 a {
   &:link {
-    color: aqua;
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
 
   /* Link visitado */
   &:visited {
-    color: #ffffff;
+    color: #fff2bc;
     text-decoration: none;
   }
 }

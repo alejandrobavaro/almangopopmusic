@@ -16,6 +16,7 @@ main {
 
 .logowhattsapp {
   width: 80px;
+
   cursor: pointer;
 }
 
@@ -68,9 +69,9 @@ main {
 
 .botonComprar {
   background: orangered;
-  font-size: small;
+  font-size:medium;
    border-radius: 10px;
-  border: 2px gray solid;
+  border: none;
 
   .card1{
     background: linear-gradient(black, orangered);
@@ -92,9 +93,9 @@ main {
 
 .h1Titulo {
   color: white;
-  background-color: orangered;
-  font-size: xx-large;
-  border: 3px orangered solid;
+  background: linear-gradient( black, orangered);
+  font-size: x-large;
+  border: none;
   border-radius: 20px;
 }
 

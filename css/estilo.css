@@ -6,7 +6,7 @@ body {
 p {
   color: rgb(241, 225, 192);
   font-style: normal;
-  font-size: small;
+  font-size: large;
   text-align: justify;
 }
 
@@ -49,6 +49,7 @@ h6 {
 
 li {
   color: white;
+  font-size: larger;
   list-style-type: none;
 }
 
@@ -61,11 +62,11 @@ a {
   /* Link visitado */
 }
 a:link {
-  color: aqua;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 a:visited {
-  color: #ffffff;
+  color: #fff2bc;
   text-decoration: none;
 }
 
@@ -213,9 +214,9 @@ main {
 /*******TIENDA********/
 .botonComprar {
   background: orangered;
-  font-size: small;
+  font-size: medium;
   border-radius: 10px;
-  border: 2px gray solid;
+  border: none;
 }
 .botonComprar .card1 {
   background: linear-gradient(black, orangered);
@@ -234,9 +235,9 @@ main {
 
 .h1Titulo {
   color: white;
-  background-color: orangered;
-  font-size: xx-large;
-  border: 3px orangered solid;
+  background: linear-gradient(black, orangered);
+  font-size: x-large;
+  border: none;
   border-radius: 20px;
 }
 
