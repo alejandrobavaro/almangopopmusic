@@ -6,7 +6,7 @@ body {
 p {
   color: rgb(241, 225, 192);
   font-style: normal;
-  font-size: large;
+  font-size: small;
   text-align: justify;
 }
 
@@ -144,7 +144,7 @@ header {
 
 .navBar {
   background-color: orangered;
-  font-size: large;
+  font-size: x-large;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   display: flex;
   justify-content: center;
@@ -186,12 +186,6 @@ main {
   margin: 10px 80px;
 }
 
-.cardAlineacion {
-  display: inline-block;
-  margin: 10px 10px;
-  padding: 10px;
-}
-
 .formularioContacto {
   color: #ffd1ba;
   text-align: center;
@@ -207,6 +201,56 @@ main {
   padding: 20px;
   border-radius: 20px;
   border-color: orangered;
+}
+
+/*******TIENDA********/
+.botonComprar {
+  background-color: black;
+  font-size: large;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.card-title {
+  text-transform: uppercase;
+}
+
+/*******REPRODUCTORES********/
+.tituloReproductores {
+  text-align: center;
+  font-size: xx-large;
+  color: orangered;
+}
+
+.h1Titulo {
+  color: white;
+  background-color: orangered;
+  font-size: xx-large;
+  border: 3px orangered solid;
+  border-radius: 20px;
+}
+
+.h2Titulo {
+  color: white;
+  text-transform: uppercase;
+  font-size: xx-large;
+  border: 3px white solid;
+  border-radius: 20px;
+}
+
+.padreReproductores {
+  border: 3px orangered solid;
+  border-radius: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hijoCardAlineacion {
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 10px;
+  margin: auto;
 }
 
 @media screen and (max-width: 420px) {

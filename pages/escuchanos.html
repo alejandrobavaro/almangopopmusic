@@ -38,41 +38,46 @@
 </head>
 
 <body class="container-fluid">
+
   <header class="encabezado">
 
     <hr class="border border-danger border-1 opacity-100">
-    <!-- NAV BAR MENU -->
+
+    <!-- ----------------------NAV BAR MENU ------------------------>
+
     <div class="navBar">
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
 
-          <a class="navbar-brand" href="../index.html"><i class="bi bi-file-earmark-music"></i></a>
+          <a class="navbar-brand" href="index.html"><i class="bi bi-file-earmark-music"></i></a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
-              <a class="nav-link" href="contacto.html">Contacto</a>
-              <a class="nav-link" href="historia.html">Historia</a>
-              <a class="nav-link" href="biografias.html">Biografías</a>
-              <a class="nav-link" href="escuchanos.html">Escuchanos</a>
-              <a class="nav-link" href="tienda.html">Tienda</a>
-              <a class="nav-link" href="ayudanos.html">Ayudanos</a>
-              <a class="nav-link" href="rider.html">Rider</a>
-              <a class="nav-link" href="clubdefans.html">Club de Fans</a>
-              <a class="nav-link" href="prensa.html">Prensa</a>
-              <a class="nav-link" href="giras.html">Giras</a>
-              <a class="nav-link" href="proximasfechas.html">Próximas Fechas</a>
+              <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+
+              <a class="nav-link" href="/pages/escuchanos.html">ESCUCHANOS</a>
+              <a class="nav-link" href="/pages/tienda.html">TIENDA</a>
+              <a class="nav-link" href="/pages/fechas.html">FECHAS</a>
+              <a class="nav-link" href="/pages/historia.html">HISTORIA</a>
+
+              <a class="nav-link" href="/pages/data.html">DATA</a>
+              <a class="nav-link" href="/pages/ayudanos.html">AYUDANOS</a>
+              <a class="nav-link" href="/pages/fans.html">FANS</a>
+              <a class="nav-link" href="/pages/contacto.html">CONTACTO</a>
             </div>
           </div>
-          <a class="navbar-brand" href="../index.html"><i class="bi bi-file-earmark-music"></i></a>
+          <a class="navbar-brand" href="/index.html"><i class="bi bi-file-earmark-music"></i></a>
         </div>
       </nav>
     </div>
+
   </header>
+
   <hr class="border border-danger border-1 opacity-100">
 
 
@@ -111,7 +116,8 @@
         <!-- LOGO CENTRO -->
         <div class="col-4">
 
-          <img src="../img/02-logostitulos/banneralmangopopmusiclogo1.png" class="img-fluid" alt="logoalmangomusicrecords">
+          <img src="../img/02-logostitulos/banneralmangopopmusiclogo1.png" class="img-fluid"
+            alt="logoalmangomusicrecords">
           <hr class="border border-danger border-2 opacity-100">
 
         </div>
@@ -146,50 +152,59 @@
     </div>
 
 
+    <!-- TITULO -->
+
+    <div class="tituloReproductores">
+      <h1 class="h1Titulo"><i class="bi bi-file-play"></i> ESCUCHA LA MUSICA DE ALMANGO POP AQUÍ MISMO <i class="bi bi-file-play"></i>
+      </h1>
+    </div>
 
     <!-- ESTRUCTURA CARD BOOTSTRAP  --------------------------->
-<h1><i class="bi bi-file-play"></i> ESCUCHA LA MUSICA DE ALMANGO POP AQUÍ MISMO <i class="bi bi-file-play"></i></h1>
 
-    <!-- /* REPRODUCTOR DE AUDIO 1 - DISCO PONELE ONDA*/ -->
-    <section class="cardAlineacion">
-      <iframe style="border-radius:12px"
-        src="https://open.spotify.com/embed/album/00vY0KAYYRuw93eM2FB4zq?utm_source=generator" width="100%"
-        height="1050" frameBorder="0" allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </section>
+    <div class="padreReproductores">
 
-    <!-- /* REPRODUCTOR DE AUDIO 2 - DISCO CON VOS HASTA LA LUNA*/ -->
-    <section class="cardAlineacion">
-      <iframe style="border-radius:12px"
-        src="https://open.spotify.com/embed/album/5ZLFXg02jRe7vQso7XAjiH?utm_source=generator" width="100%"
-        height="1050" frameBorder="0" allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </section>
+      <!-- /* REPRODUCTOR DE AUDIO 1 - DISCO PONELE ONDA*/ -->
+      <section class="hijoCardAlineacion">
+        <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/album/00vY0KAYYRuw93eM2FB4zq?utm_source=generator" width="100%"
+          height="1050" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
 
-    <!-- /* REPRODUCTOR DE AUDIO 3 - DISCO FUNDIDOS IN THE NIGHT*/ -->
-    <section class="cardAlineacion">
-      <iframe style="border-radius:12px"
-        src="https://open.spotify.com/embed/album/79fEcpUMvhyBacujWVUUK0?utm_source=generator" width="100%"
-        height="1050" frameBorder="0" allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </section>
+      <!-- /* REPRODUCTOR DE AUDIO 2 - DISCO CON VOS HASTA LA LUNA*/ -->
+      <section class="hijoCardAlineacion">
+        <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/album/5ZLFXg02jRe7vQso7XAjiH?utm_source=generator" width="100%"
+          height="1050" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
 
-    <!-- /* REPRODUCTOR DE AUDIO 4 - DISCO NADIE NOS VA A PARAR*/ -->
-    <section class="cardAlineacion">
-      <iframe style="border-radius:12px"
-        src="https://open.spotify.com/embed/album/54o1hiBm9VN2wE0OKY7Xnl?utm_source=generator" width="100%"
-        height="1050" frameBorder="0" allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </section>
+      <!-- /* REPRODUCTOR DE AUDIO 3 - DISCO FUNDIDOS IN THE NIGHT*/ -->
+      <section class="hijoCardAlineacion">
+        <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/album/79fEcpUMvhyBacujWVUUK0?utm_source=generator" width="100%"
+          height="1050" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
 
-    <hr class="border border-danger border-1 opacity-100">
+      <!-- /* REPRODUCTOR DE AUDIO 4 - DISCO NADIE NOS VA A PARAR*/ -->
+      <section class="hijoCardAlineacion">
+        <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/album/54o1hiBm9VN2wE0OKY7Xnl?utm_source=generator" width="100%"
+          height="1050" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
 
-  <!-- /* REPRODUCTOR DE AUDIO 5 - A NADA DE SERLO TODO*/ -->
-    <section class="cardAlineacion reproductorSpotify">
-      <iframe style="border-radius:12px"
-        src="https://open.spotify.com/embed/album/6EZ2tGRBTM4XqCAW2MEbQi?utm_source=generator&theme=0" width="100%" height="1050" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </section>
+      <!-- /* REPRODUCTOR DE AUDIO 5 - A NADA DE SERLO TODO*/ -->
 
+      <section class="hijoCardAlineacion">
+        <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/album/6EZ2tGRBTM4XqCAW2MEbQi?utm_source=generator&theme=0" width="100%"
+          height="1050" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
+
+    </div>
 
 
     <!-- ------------------YOUTUBE REP-------------------------- -->
