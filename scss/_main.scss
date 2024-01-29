@@ -47,7 +47,7 @@ main {
 
 .telefonoWhattsapp {
   font-size: large;
-  }
+}
 
 .tarjetaGaleria {
   background-color: black;
@@ -64,7 +64,7 @@ main {
 .tarjetaGaleria1 {
   font-size: xx-large;
   text-align: justify;
-   border-radius: 20px;
+  border-radius: 20px;
   border: orangered 5px dotted;
 }
 
@@ -73,31 +73,41 @@ main {
 
 .botonComprar {
   background: orangered;
-  font-size:medium;
-   border-radius: 10px;
+  font-size: medium;
+  border-radius: 10px;
   border: none;
-
-  .card1{
-    background: linear-gradient(black, orangered);
-  }
-
 }
- .card-title {
+
+.card1 {
+  background: linear-gradient(black, orangered);
+}
+
+
+.card-title {
   text-transform: uppercase;
-  
- }
+  font-size: small;
+  text-align: center;
+}
+
+.card-title2 {
+  text-transform: normal;
+  font-size: small;
+  text-align: center;
+}
+
+
 
 /*******REPRODUCTORES********/
 
 .tituloReproductores {
   text-align: center;
-  font-size:xx-large;
+  font-size: xx-large;
   color: orangered;
 }
 
 .h1Titulo {
   color: white;
-  background: linear-gradient( black, orangered);
+  background: linear-gradient(black, orangered);
   font-size: x-large;
   border: none;
   border-radius: 20px;
@@ -105,7 +115,7 @@ main {
 
 .h2Titulo {
   color: white;
-text-transform: uppercase;
+  text-transform: uppercase;
   font-size: xx-large;
   border: 3px white solid;
   border-radius: 20px;
@@ -126,9 +136,9 @@ text-transform: uppercase;
   margin: auto;
 }
 
-.gridEstilo1{
-    color: white;
-      border-radius: 20px;
-    border: 3px orangered solid;
-    font-size: x-large;
+.gridEstilo1 {
+  color: white;
+  border-radius: 20px;
+  border: 3px orangered solid;
+  font-size: x-large;
 }

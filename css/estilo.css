@@ -222,12 +222,21 @@ main {
   border-radius: 10px;
   border: none;
 }
-.botonComprar .card1 {
+
+.card1 {
   background: linear-gradient(black, orangered);
 }
 
 .card-title {
   text-transform: uppercase;
+  font-size: small;
+  text-align: center;
+}
+
+.card-title2 {
+  text-transform: normal;
+  font-size: small;
+  text-align: center;
 }
 
 /*******REPRODUCTORES********/
