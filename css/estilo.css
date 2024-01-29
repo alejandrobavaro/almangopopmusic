@@ -151,6 +151,22 @@ header {
   justify-content: center;
 }
 
+.navBardrop1 {
+  background-color: orangered;
+  color: rgb(241, 225, 192);
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  border: none;
+  justify-content: center;
+}
+
+.navBardrop2 {
+  background-color: orangered;
+  border: none;
+  justify-content: center;
+}
+
 main {
   border: 10px rgb(255, 255, 255);
   align-items: center;
