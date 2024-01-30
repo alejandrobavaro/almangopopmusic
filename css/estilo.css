@@ -310,6 +310,11 @@ main {
   color: aqua;
 }
 
+.tarjetaChords1 {
+  width: 300px;
+  height: auto;
+}
+
 @media screen and (max-width: 420px) {
   .linksFooter div {
     margin-right: 0.3rem;
