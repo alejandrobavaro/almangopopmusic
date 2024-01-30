@@ -41,7 +41,7 @@ main {
 
 
 .formularioContacto {
-  color: #ffd1ba;
+  color: #b2fcff;
   text-align: center;
 }
 
@@ -142,3 +142,13 @@ main {
   border: 3px orangered solid;
   font-size: x-large;
 }
+
+.gridChordspadre {
+  display: flex;
+  align-content: center;
+}
+
+.gridChords {
+  border: 2px orangered solid;
+  color: aqua;
+  }
