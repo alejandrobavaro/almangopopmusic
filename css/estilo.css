@@ -16,10 +16,12 @@ p {
 
 h1 {
   color: white;
+  font-size: large;
 }
 
 h2 {
   color: aquamarine;
+  font-size: medium;
 }
 
 h3 {
