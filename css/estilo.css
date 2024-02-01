@@ -177,7 +177,7 @@ main {
 }
 
 .logowhattsapp {
-  width: 80px;
+  width: 10%;
   cursor: pointer;
 }
 
@@ -265,7 +265,6 @@ main {
 /*******REPRODUCTORES********/
 .tituloReproductores {
   text-align: center;
-  font-size: xx-large;
   color: orangered;
 }
 
@@ -279,11 +278,12 @@ main {
 }
 
 .h2Titulo {
-  color: white;
+  color: aquamarine;
   text-transform: uppercase;
-  font-size: xx-large;
-  border: 3px white solid;
+  font-size: medium;
+  border: 2px orangered dotted;
   border-radius: 20px;
+  padding: 5px;
 }
 
 .padreReproductores {
