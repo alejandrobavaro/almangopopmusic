@@ -1,7 +1,10 @@
 body {
   background-color: black;
+  background-image: url(/img/03-img-body/fondo2.jpg);
+  background-repeat:repeat;
+  background-position: center;
+  background-size: cover;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 
 p {
@@ -16,12 +19,12 @@ h1 {
   font-size: x-large;
 }
 
-h2{
-color: aquamarine;
-font-size: x-large;
+h2 {
+  color: aquamarine;
+  font-size: x-large;
 }
 
-h3{
+h3 {
   color: rgb(255, 111, 0);
 }
 

@@ -1,8 +1,4 @@
-header {
-  width: 100%;
-  position: relative;
-  z-index: 100;
-}
+
 
 #navbar {
   background-color: transparent;
@@ -30,4 +26,10 @@ header {
   background-color: orangered;
    border: none;
   justify-content: center;
+}
+
+.encabezado {
+  background-color: transparent;
+  align-items: center;
+  margin-top: 10px;
 }

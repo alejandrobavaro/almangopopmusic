@@ -1,5 +1,9 @@
 body {
   background-color: black;
+  background-image: url(/img/03-img-body/fondo2.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -128,17 +132,6 @@ footer {
   list-style: none;
 }
 
-.img1Footer img,
-.img2Footer img {
-  max-height: 3rem;
-}
-
-header {
-  width: 100%;
-  position: relative;
-  z-index: 100;
-}
-
 #navbar {
   background-color: transparent;
 }
@@ -165,6 +158,12 @@ header {
   background-color: orangered;
   border: none;
   justify-content: center;
+}
+
+.encabezado {
+  background-color: transparent;
+  align-items: center;
+  margin-top: 10px;
 }
 
 main {
@@ -206,10 +205,13 @@ main {
 .formularioContacto {
   color: #b2fcff;
   text-align: center;
+  font-weight: bold;
 }
 
-.telefonoWhattsapp {
-  font-size: large;
+#telefonoWhattsapp {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
 }
 
 .tarjetaGaleria {
@@ -237,6 +239,8 @@ main {
   font-size: medium;
   border-radius: 10px;
   border: none;
+  font-weight: bold;
+  padding: 2px;
 }
 
 .card1 {
@@ -268,6 +272,7 @@ main {
   font-size: x-large;
   border: none;
   border-radius: 20px;
+  font-weight: bold;
 }
 
 .h2Titulo {
@@ -313,6 +318,11 @@ main {
 .tarjetaChords1 {
   width: 300px;
   height: auto;
+}
+
+.objetoCentrado {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 420px) {

@@ -43,10 +43,13 @@ cursor: pointer;
 .formularioContacto {
   color: #b2fcff;
   text-align: center;
+  font-weight: bold;
 }
 
-.telefonoWhattsapp {
-  font-size: large;
+#telefonoWhattsapp{
+  font-size:x-large;
+  font-weight:bold;
+  text-align: center;
 }
 
 .tarjetaGaleria {
@@ -76,6 +79,8 @@ cursor: pointer;
   font-size: medium;
   border-radius: 10px;
   border: none;
+  font-weight: bold;
+  padding: 2px;
 }
 
 .card1 {
@@ -111,6 +116,7 @@ cursor: pointer;
   font-size: x-large;
   border: none;
   border-radius: 20px;
+  font-weight: bold;
 }
 
 .h2Titulo {
@@ -160,3 +166,9 @@ cursor: pointer;
     height: auto;
     
   }
+
+
+.objetoCentrado {
+    display: flex;
+  justify-content: center;
+}
