@@ -17,7 +17,7 @@ main {
 .logowhattsapp {
   width: 10%;
 
-cursor: pointer;
+  cursor: pointer;
 }
 
 
@@ -40,7 +40,7 @@ cursor: pointer;
 
 
 .estiloFormulario {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: large;
   font-weight: bold;
   color: white;
@@ -49,13 +49,13 @@ cursor: pointer;
 .formularioContacto {
   color: #b2fcff;
   text-align: center;
-  font-size: x-large;
-
+  font-size: medium;
+  font-weight: bold;
 }
 
-#telefonoWhattsapp{
-  font-size:x-large;
-  font-weight:bold;
+#telefonoWhattsapp {
+  font-size: x-large;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -159,24 +159,31 @@ cursor: pointer;
 
 .gridChordspadre {
   display: flex;
-  align-content: center;
- }
+  justify-content: center;
+}
 
 .gridChords {
-  border: 2px orangered solid;
+  border: 3px orangered solid;
+  border-radius: 20px;
   color: aqua;
-  
+}
 
-  }
-
-  .tarjetaChords1 {
-    width: 300px;
-    height: auto;
-    
-  }
+.tarjetaChords1 {
+  width: 100%;
+  height: auto;
+align-items: center;
+}
 
 
 .objetoCentrado {
-    display: flex;
+  display: flex;
+  justify-content: center;
+  width:100%; 
+  height:350px;
+}
+
+
+.objetoCentrado1 {
+  display: flex;
   justify-content: center;
 }
