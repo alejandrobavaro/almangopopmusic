@@ -40,11 +40,12 @@ main {
 
 
 .estiloFormulario {
- background: rgba(255, 68, 0, 0.709);
+ background-image: url(../img/03-img-body/fondo2.jpg);
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
   font-style: italic;
-  color: white;
+  color: orangered;
+  font-weight:bold;
   border: 3px orangered solid;
   border-radius: 20px;
 }
