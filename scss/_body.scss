@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+ 
   background-image: url(/img/03-img-body/fondo2.jpg);
   background-repeat:repeat;
   background-position: center;
@@ -10,7 +10,7 @@ body {
 
 p {
   color: rgb(241, 225, 192);
-  font-style: normal;
+
   font-size: medium;
   text-align: justify;
 }
@@ -84,9 +84,9 @@ a {
 }
 
 form {
-  background-color: orangered;
-   width: "100%";
-  height: "600px";
+  background-color: rgba(255, 98, 0, 0.448);
+   width: 50%;
+  height: auto;
   padding: 20px;
   border: none;
   border-radius: 20px;

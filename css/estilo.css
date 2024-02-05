@@ -1,5 +1,4 @@
 body {
-  background-color: black;
   background-image: url(/img/03-img-body/fondo2.jpg);
   background-repeat: repeat;
   background-position: center;
@@ -9,7 +8,6 @@ body {
 
 p {
   color: rgb(241, 225, 192);
-  font-style: normal;
   font-size: medium;
   text-align: justify;
 }
@@ -77,9 +75,9 @@ a:visited {
 }
 
 form {
-  background-color: orangered;
-  width: "100%";
-  height: "600px";
+  background-color: rgba(255, 98, 0, 0.448);
+  width: 50%;
+  height: auto;
   padding: 20px;
   border: none;
   border-radius: 20px;
@@ -201,10 +199,13 @@ main {
 }
 
 .estiloFormulario {
-  font-family: "Times New Roman", Times, serif;
+  background: rgba(255, 68, 0, 0.709);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: large;
-  font-weight: bold;
+  font-style: italic;
   color: white;
+  border: 3px orangered solid;
+  border-radius: 20px;
 }
 
 .formularioContacto {
@@ -221,12 +222,12 @@ main {
 }
 
 .tarjetaGaleria {
-  background-color: black;
+  background-color: transparent;
   color: rgb(255, 255, 255);
   font-style: normal;
   font-size: 20px;
-  width: "100%";
-  height: "600px";
+  width: 100%;
+  height: 600px;
   padding: 20px;
   border-radius: 20px;
   border-color: orangered;
@@ -236,12 +237,12 @@ main {
   font-size: xx-large;
   text-align: justify;
   border-radius: 20px;
-  border: orangered 5px dotted;
+  border: 5px orangered dotted;
 }
 
 /*******TIENDA********/
 .botonComprar {
-  background: orangered;
+  background: rgb(255, 68, 0);
   font-size: medium;
   border-radius: 10px;
   border: none;
@@ -250,10 +251,11 @@ main {
 }
 
 .card1 {
-  background: linear-gradient(black, orangered);
+  background: transparent;
 }
 
 .card-title {
+  color: white;
   text-transform: uppercase;
   font-size: small;
   text-align: center;

@@ -40,10 +40,13 @@ main {
 
 
 .estiloFormulario {
-  font-family: 'Times New Roman', Times, serif;
+ background: rgba(255, 68, 0, 0.709);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
-  font-weight: bold;
+  font-style: italic;
   color: white;
+  border: 3px orangered solid;
+  border-radius: 20px;
 }
 
 .formularioContacto {
@@ -60,12 +63,12 @@ main {
 }
 
 .tarjetaGaleria {
-  background-color: black;
+  background-color: transparent;
   color: rgb(255, 255, 255);
   font-style: normal;
   font-size: 20px;
-  width: "100%";
-  height: "600px";
+  width: 100%;
+  height: 600px;
   padding: 20px;
   border-radius: 20px;
   border-color: orangered;
@@ -75,14 +78,14 @@ main {
   font-size: xx-large;
   text-align: justify;
   border-radius: 20px;
-  border: orangered 5px dotted;
+  border: 5px orangered  dotted;
 }
 
 
 /*******TIENDA********/
 
 .botonComprar {
-  background: orangered;
+  background: rgb(255, 68, 0);
   font-size: medium;
   border-radius: 10px;
   border: none;
@@ -91,12 +94,13 @@ main {
 }
 
 .card1 {
-  background: linear-gradient(black, orangered);
+  background: transparent;
 
 }
 
 
 .card-title {
+  color: white;
   text-transform: uppercase;
   font-size: small;
   text-align: center;
@@ -187,3 +191,4 @@ align-items: center;
   display: flex;
   justify-content: center;
 }
+
