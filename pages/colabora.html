@@ -402,27 +402,52 @@
     </div>
 
    
-    <!-- FORMULARIO -->
+   <!-- FORMULARIO -->
 
 
-
-    <form class="estiloFormulario container-fluid"  action="https://formspree.io/f/xbjnlgzz" method="post">
-      <div>
-        <div class="form-group">
-          <label for="nombre">Nombre:</label>
-          <input type="text" class="form-control" id="nombre" name="nombre" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Correo Electrónico:</label>
-          <input type="email" class="form-control" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="mensaje">Mensaje:</label>
-          <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-        </div>
+   <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <!-- Tu formulario -->
+        <form class="estiloFormulario" action="https://formspree.io/f/xbjnlgzz" method="post">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ingresa tu teléfono" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="asunto">Asunto del Mensaje:</label>
+              <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Ingresa el asunto del mensaje" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+          </div>
+          <div class="text-end">
+            <!-- La clase text-end alinea el contenido a la derecha -->
+            <button type="submit" class="btn botonEnviar">ENVIAR</button>
+          </div>
+        </form>
       </div>
-      <button type="submit" class="btn btn-primary botonEnviar">ENVIAR</button>
-    </form>
+      <div class="col-md-3">
+        <!-- La imagen ocupa un cuarto del ancho -->
+        <img class="imagen-limitada" src="../img/05-img-costados-larga/carrusellargo3.jpg" alt="fotopersonalfest" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  
+
 
 
 

@@ -213,11 +213,14 @@ main {
 
 .h2Titulo {
   color: aquamarine;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-transform: uppercase;
   font-size: medium;
-  border: 2px orangered dotted;
+  border: 2px orangered solid;
   border-radius: 20px;
   padding: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .padreReproductores {
