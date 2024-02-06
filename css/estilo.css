@@ -199,13 +199,58 @@ main {
 }
 
 .estiloFormulario {
-  background-color: orangered;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: large;
-  font-style: italic;
-  color: white;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  font-family: "Cambria", "Cochin", "Georgia", "Times", "Times New Roman", serif;
+  font-size: 18px;
+  color: rgb(212, 211, 211);
   font-weight: bold;
-  border: 3px orangered solid;
+  border: 3px solid #a2a1a1;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.estiloFormulario input {
+  background-color: rgba(212, 208, 208, 0.6549019608);
+  font-style: italic;
+  color: #FFF;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.estiloFormulario textarea {
+  background-color: rgba(212, 208, 208, 0.6549019608);
+  color: #FFF;
+  font-style: italic;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.botonEnviar {
+  background-color: #565656;
+  color: #ccbfb4;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.botonEnviar:hover {
+  background-color: #4e4e4e;
+  color: #ffffff;
+  border: none;
+}
+
+.imagen-limitada {
+  width: 100%;
+  height: auto;
+  border: none;
   border-radius: 20px;
 }
 
@@ -214,6 +259,7 @@ main {
   text-align: center;
   font-size: medium;
   font-weight: bold;
+  max-width: 100%;
 }
 
 #telefonoWhattsapp {
@@ -232,6 +278,7 @@ main {
   padding: 20px;
   border-radius: 20px;
   border-color: orangered;
+  overflow: hidden; /* Evita que el contenido se desborde */
 }
 
 .tarjetaGaleria1 {
@@ -243,12 +290,17 @@ main {
 
 /*******TIENDA********/
 .botonComprar {
-  background: rgb(255, 68, 0);
-  font-size: medium;
-  border-radius: 10px;
+  background-color: #565656;
+  color: #ccbfb4;
   border: none;
-  font-weight: bold;
-  padding: 2px;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.botonComprar :hover {
+  background-color: #4e4e4e;
+  color: #ffffff;
+  border: none;
 }
 
 .card1 {
@@ -372,6 +424,11 @@ main {
   .img1Footer img {
     max-height: 2rem;
     margin-bottom: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .h1Titulo {
+    font-size: 1.2em;
   }
 }
 

@@ -38,31 +38,84 @@ main {
   margin: 10px 80px;
 }
 
-
 .estiloFormulario {
-background-color: orangered;
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: large;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+  font-size: 18px;
+  color: rgb(212, 211, 211);
+  font-weight: bold;
+  border: 3px solid #a2a1a1;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+
+.estiloFormulario input {
+  background-color: #d4d0d0a7;
   font-style: italic;
-  color: white;
-  font-weight:bold;
-  border: 3px orangered solid;
+  color: #FFF;
+   border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.estiloFormulario textarea {
+  background-color: #d4d0d0a7;
+  color: #FFF;
+  font-style: italic;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.botonEnviar {
+  background-color: #565656;
+  color: #ccbfb4;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.botonEnviar:hover {
+  background-color: #4e4e4e;
+  color: #ffffff;
+  border: none
+  }
+
+
+.imagen-limitada {
+ width: 100%; 
+  height: auto;
+  border: none;
   border-radius: 20px;
 }
+
 
 .formularioContacto {
   color: #b2fcff;
   text-align: center;
   font-size: medium;
   font-weight: bold;
+  max-width: 100%;
 }
+
+
+
+
 
 #telefonoWhattsapp {
   font-size: x-large;
   font-weight: bold;
   text-align: center;
 }
-
 .tarjetaGaleria {
   background-color: transparent;
   color: rgb(255, 255, 255);
@@ -73,26 +126,34 @@ background-color: orangered;
   padding: 20px;
   border-radius: 20px;
   border-color: orangered;
+  overflow: hidden; /* Evita que el contenido se desborde */
 }
 
 .tarjetaGaleria1 {
   font-size: xx-large;
   text-align: justify;
   border-radius: 20px;
-  border: 5px orangered  dotted;
+  border: 5px orangered dotted;
 }
 
 
 /*******TIENDA********/
 
 .botonComprar {
-  background: rgb(255, 68, 0);
-  font-size: medium;
-  border-radius: 10px;
+  background-color: #565656;
+  color: #ccbfb4;
   border: none;
-  font-weight: bold;
-  padding: 2px;
+  border-radius: 10px;
+  padding: 10px 10px;
 }
+
+
+.botonComprar :hover {
+  background-color: #4e4e4e;
+  color: #ffffff;
+  border: none
+  }
+
 
 .card1 {
   background: transparent;
@@ -121,6 +182,8 @@ background-color: orangered;
   text-align: center;
   color: orangered;
 }
+
+
 
 .h1Titulo {
   color: white;
@@ -176,15 +239,15 @@ background-color: orangered;
 .tarjetaChords1 {
   width: 100%;
   height: auto;
-align-items: center;
+  align-items: center;
 }
 
 
 .objetoCentrado {
   display: flex;
   justify-content: center;
-  width:100%; 
-  height:350px;
+  width: 100%;
+  height: 350px;
 }
 
 
@@ -192,4 +255,3 @@ align-items: center;
   display: flex;
   justify-content: center;
 }
-
