@@ -344,7 +344,7 @@ main {
 
 .h2Titulo {
   color: aquamarine;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-transform: uppercase;
   font-size: medium;
   border: 2px orangered solid;
