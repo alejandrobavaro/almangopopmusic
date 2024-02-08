@@ -1,10 +1,13 @@
 body {
   background-image: url(/img/03-img-body/fondo2.jpg);
-  background-repeat:repeat;
+  background-color: black;
+  background-repeat: repeat;
   background-position: center;
   background-size: cover;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
+  overflow-x: hidden;
+}
+
 
 p {
   color: rgb(241, 225, 192);
@@ -20,7 +23,7 @@ h1 {
 
 h2 {
   color: aquamarine;
-font-size: medium;
+  font-size: medium;
 }
 
 h3 {
@@ -83,7 +86,7 @@ a {
 
 form {
   background-color: rgba(255, 98, 0, 0.448);
-   width: 50%;
+  width: 50%;
   height: auto;
   padding: 20px;
   border: none;

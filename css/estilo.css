@@ -1,9 +1,12 @@
+@charset "UTF-8";
 body {
   background-image: url(/img/03-img-body/fondo2.jpg);
+  background-color: black;
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  overflow-x: hidden;
 }
 
 p {
@@ -102,11 +105,9 @@ footer {
   padding: 1%;
   background-color: orangered;
   color: rgb(255, 255, 255);
-  border: 1px rgb(255, 255, 255) solid;
-  margin: none;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0;
   text-align: center;
-  left: 0;
-  bottom: 0;
   width: 100%;
 }
 
@@ -120,15 +121,10 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin: 0 5rem;
 }
 .linksFooter div {
   list-style: none;
-}
-
-#navbar {
-  background-color: transparent;
 }
 
 .navBar {
@@ -139,20 +135,26 @@ footer {
   justify-content: center;
 }
 
-.navBardrop1 {
-  background-color: orangered;
-  color: rgb(241, 225, 192);
-  font-size: x-large;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  display: flex;
-  border: none;
-  justify-content: center;
-}
-
+.navBardrop1,
 .navBardrop2 {
   background-color: orangered;
   border: none;
   justify-content: center;
+  color: rgb(241, 225, 192);
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.navBardrop2 {
+  font-size: large;
+}
+
+.menu-link:hover {
+  color: #000000; /* Cambia el color a blanco al pasar el mouse */
+}
+
+.navBardrop2.dropdown-toggle.menu-link::after {
+  display: none !important;
 }
 
 .encabezado {
@@ -169,11 +171,6 @@ main {
 .colCostado1 {
   height: auto;
   max-width: 50%;
-}
-
-.logoPaypal {
-  width: 50px;
-  height: 50px;
 }
 
 .logowhattsapp {
@@ -310,6 +307,10 @@ main {
   border: none;
 }
 
+.botonEnviar {
+  font-size: 18px;
+}
+
 .card1 {
   background: transparent;
 }
@@ -439,6 +440,39 @@ main {
 @media (max-width: 768px) {
   .h1Titulo {
     font-size: 1.2em;
+  }
+}
+/* Media query para dispositivos pequeños */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: medium;
+  }
+  h2 {
+    font-size: small;
+  }
+  p {
+    font-size: small;
+  }
+}
+/* Media query para dispositivos pequeños */
+@media only screen and (max-width: 600px) {
+  .navBar {
+    font-size: large;
+  }
+  .navBardrop1 {
+    font-size: large;
+  }
+  .navBardrop2 {
+    font-size: medium;
+  }
+}
+/* Media query para dispositivos pequeños */
+@media only screen and (max-width: 600px) {
+  .botonEnviar {
+    font-size: 14px;
+  }
+  .botonComprar {
+    font-size: 14px;
   }
 }
 

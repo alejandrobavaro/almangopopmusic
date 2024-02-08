@@ -41,3 +41,65 @@
     font-size: 1.2em;
   }
 }
+
+
+
+
+//----------textos---------///
+
+
+
+/* Media query para dispositivos pequeños */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: medium;
+  }
+
+  h2 {
+    font-size: small;
+  }
+
+  p {
+    font-size: small;
+  }
+}
+
+
+
+
+//-----------nav--------------//
+
+
+/* Media query para dispositivos pequeños */
+@media only screen and (max-width: 600px) {
+  .navBar {
+    font-size: large;
+  }
+
+  .navBardrop1 {
+    font-size: large
+  }
+  .navBardrop2{
+    font-size: medium
+  }
+}
+
+
+
+
+//--------botones--------//
+
+
+
+/* Media query para dispositivos pequeños */
+@media only screen and (max-width: 600px) {
+  .botonEnviar {
+    font-size: 14px;
+  }
+
+  .botonComprar{
+    font-size: 14px;
+  }
+}
+
+
