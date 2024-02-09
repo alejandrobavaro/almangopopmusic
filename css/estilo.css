@@ -293,16 +293,21 @@ main {
 }
 
 /*******TIENDA********/
+/* Estilos para el botón de compra */
 .botonComprar {
-  background-color: #565656;
-  color: #ccbfb4;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 10px;
+  padding: 8px 16px; /* Ajusta el espaciado interno */
+  font-size: 16px; /* Tamaño de la fuente */
+  border: 2px solid orangered; /* Borde del botón */
+  border-radius: 10px; /* Borde redondeado */
+  background-color: rgb(145, 87, 65); /* Color de fondo */
+  color: white; /* Color del texto */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: all 0.3s ease; /* Animación suave al cambiar propiedades */
 }
 
-.botonComprar :hover {
-  background-color: #4e4e4e;
+/* Estilos para el botón al pasar el cursor */
+.botonComprar:hover {
+  background-color: #ff5e00;
   color: #ffffff;
   border: none;
 }
@@ -404,6 +409,89 @@ main {
 .objetoCentrado1 {
   display: flex;
   justify-content: center;
+}
+
+@keyframes moveLogo {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.logo {
+  animation: moveLogo 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
+}
+
+/* Define la animación */
+@keyframes resizeWelcome {
+  0% {
+    transform: scale(1);
+  } /* Tamaño original */
+  50% {
+    transform: scale(1.1);
+  } /* Tamaño agrandado */
+  100% {
+    transform: scale(1);
+  } /* Vuelve al tamaño original */
+}
+/* Aplica la animación a la clase welcome */
+.welcome {
+  animation: resizeWelcome 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
+}
+
+/* Define la animación */
+@keyframes moveText {
+  0% {
+    transform: translateX(0);
+  } /* Sin movimiento */
+  50% {
+    transform: translateX(2px);
+  } /* Se mueve 10px hacia la derecha */
+  100% {
+    transform: translateX(0);
+  } /* Vuelve a su lugar original */
+}
+/* Aplica la animación a la clase h2Titulo */
+.h2Titulo {
+  animation: moveText 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
+}
+
+/* Define la animación */
+@keyframes shrinkLogo {
+  0% {
+    transform: scale(1);
+  } /* Tamaño original */
+  50% {
+    transform: scale(0.9);
+  } /* Se achica al 80% */
+  100% {
+    transform: scale(1);
+  } /* Vuelve al tamaño original */
+}
+/* Aplica la animación al logo */
+.navbar-brand img {
+  animation: shrinkLogo 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
+}
+
+/* Define la animación */
+@keyframes shrinkLogo {
+  0% {
+    transform: scale(1);
+  } /* Tamaño original */
+  50% {
+    transform: scale(0.8);
+  } /* Se achica al 80% */
+  100% {
+    transform: scale(1);
+  } /* Vuelve al tamaño original */
+}
+/* Aplica la animación al logo */
+.logo-paypal {
+  animation: shrinkLogo 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
 }
 
 .h1Titulo {
