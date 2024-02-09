@@ -16,14 +16,15 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.navBardrop2{
+.navBardrop2 {
   font-size: large;
-  
+
 }
 
 
 .menu-link:hover {
-  color: #000000; /* Cambia el color a blanco al pasar el mouse */
+  color: #000000;
+  /* Cambia el color a blanco al pasar el mouse */
 }
 
 .navBardrop2.dropdown-toggle.menu-link::after {

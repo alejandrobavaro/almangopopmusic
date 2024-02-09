@@ -37,7 +37,7 @@
 
 
 @media (max-width: 768px) {
-  .h1Titulo  {
+  .h1Titulo {
     font-size: 1.2em;
   }
 }
@@ -46,13 +46,15 @@
 
 @media (max-width: 992px) {
   #telefonoWhattsapp {
-    font-size: 1em; /* Reducir el tamaño del texto en pantallas medianas */
+    font-size: 1em;
+  
   }
 }
 
 @media (max-width: 768px) {
   #telefonoWhattsapp {
-    font-size: 1.2em; /* Reducir el tamaño del texto en pantallas pequeñas (mobile) */
+    font-size: 1.2em;
+  
   }
 }
 
@@ -63,7 +65,7 @@
 
 
 
-/* Media query para dispositivos pequeños */
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: medium;
@@ -84,7 +86,7 @@
 //-----------nav--------------//
 
 
-/* Media query para dispositivos pequeños */
+
 @media only screen and (max-width: 600px) {
   .navBar {
     font-size: large;
@@ -93,7 +95,8 @@
   .navBardrop1 {
     font-size: large
   }
-  .navBardrop2{
+
+  .navBardrop2 {
     font-size: medium
   }
 }
@@ -105,23 +108,22 @@
 
 
 
-/* Media query para dispositivos pequeños */
+
 @media only screen and (max-width: 600px) {
   .botonEnviar {
     font-size: 14px;
   }
 
-  .botonComprar{
+  .botonComprar {
     font-size: 14px;
   }
 }
 
 
-/* Estilos para resoluciones móviles */
+
 @media only screen and (max-width: 768px) {
   .carruselContainer {
-    display: none; /* Oculta el carrusel en resoluciones móviles */
+    display: none;
+
   }
 }
-
-

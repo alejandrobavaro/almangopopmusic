@@ -51,7 +51,7 @@ main {
   background-color: #d4d0d0a7;
   font-style: italic;
   color: #FFF;
-   border: none;
+  border: none;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
@@ -81,11 +81,11 @@ main {
   background-color: #4e4e4e;
   color: #ffffff;
   border: none
-  }
+}
 
 
 .imagen-limitada {
- width: 100%; 
+  width: 100%;
   height: auto;
   border: none;
   border-radius: 20px;
@@ -102,10 +102,12 @@ main {
 
 
 #telefonoWhattsapp {
-  font-size: 1.1em; /* Tamaño base del texto */
+  font-size: 1.1em;
+  /* Tamaño base del texto */
   font-weight: bold;
   text-align: center;
-  white-space: nowrap; /* Evitar que el texto se envuelva a la siguiente línea */
+  white-space: nowrap;
+  /* Evitar que el texto se envuelva a la siguiente línea */
 }
 
 
@@ -123,8 +125,8 @@ main {
 }
 
 .card-body {
-  max-height: 100%; 
-  }
+  max-height: 100%;
+}
 
 .card-img-top {
   max-width: 100%;
@@ -146,16 +148,16 @@ main {
 /*******TIENDA********/
 
 .botonComprar {
-  padding: 8px 16px; 
-  font-size: 16px; 
+  padding: 8px 16px;
+  font-size: 16px;
   border: none;
-  border-radius: 10px; 
-  background-color: rgb(144, 67, 37); 
-  color: rgb(255, 255, 255); 
-  cursor: pointer; 
-  transition: all 0.3s ease; 
-  float: right; 
-  margin-top: 10px; 
+  border-radius: 10px;
+  background-color: rgb(144, 67, 37);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-top: 10px;
 }
 
 .botonComprar:hover {
@@ -166,9 +168,9 @@ main {
 
 
 
-  .botonEnviar {
-    font-size: 18px;
-  }
+.botonEnviar {
+  font-size: 18px;
+}
 
 .card1 {
   background: transparent;
@@ -280,61 +282,121 @@ main {
 
 
 @keyframes moveLogo {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(10px); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .logo {
-  animation: moveLogo 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
+  animation: moveLogo 2s ease infinite;
+
 }
 
 
-/* Define la animación */
+
 @keyframes resizeWelcome {
-  0% { transform: scale(1); } /* Tamaño original */
-  50% { transform: scale(1.1); } /* Tamaño agrandado */
-  100% { transform: scale(1); } /* Vuelve al tamaño original */
+  0% {
+    transform: scale(1);
+  }
+
+  /* Tamaño original */
+  50% {
+    transform: scale(1.1);
+  }
+
+  /* Tamaño agrandado */
+  100% {
+    transform: scale(1);
+  }
+
+  
 }
 
-/* Aplica la animación a la clase welcome */
+
 .welcome {
-  animation: resizeWelcome 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
+  animation: resizeWelcome 2s ease infinite;
+
 }
 
-/* Define la animación */
+
 @keyframes moveText {
-  0% { transform: translateX(0); } /* Sin movimiento */
-  50% { transform: translateX(2px); } /* Se mueve 10px hacia la derecha */
-  100% { transform: translateX(0); } /* Vuelve a su lugar original */
+  0% {
+    transform: translateX(0);
+  }
+
+  /* Sin movimiento */
+  50% {
+    transform: translateX(2px);
+  }
+
+  /* Se mueve 10px hacia la derecha */
+  100% {
+    transform: translateX(0);
+  }
+
+
 }
 
-/* Aplica la animación a la clase h2Titulo */
+
 .h2Titulo {
-  animation: moveText 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
+  animation: moveText 2s ease infinite;
+
 }
 
-/* Define la animación */
+
 @keyframes shrinkLogo {
-  0% { transform: scale(1); } /* Tamaño original */
-  50% { transform: scale(0.9); } /* Se achica al 80% */
-  100% { transform: scale(1); } /* Vuelve al tamaño original */
+  0% {
+    transform: scale(1);
+  }
+
+  /* Tamaño original */
+  50% {
+    transform: scale(0.9);
+  }
+
+  /* Se achica al 80% */
+  100% {
+    transform: scale(1);
+  }
+
+
 }
 
 /* Aplica la animación al logo */
 .navbar-brand img {
-  animation: shrinkLogo 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
+  animation: shrinkLogo 2s ease infinite;
+
 }
 
 
-/* Define la animación */
+
 @keyframes shrinkLogo {
-  0% { transform: scale(1); } /* Tamaño original */
-  50% { transform: scale(0.8); } /* Se achica al 80% */
-  100% { transform: scale(1); } /* Vuelve al tamaño original */
+  0% {
+    transform: scale(1);
+  }
+
+  /* Tamaño original */
+  50% {
+    transform: scale(0.8);
+  }
+
+  /* Se achica al 80% */
+  100% {
+    transform: scale(1);
+  }
+
 }
 
 /* Aplica la animación al logo */
 .logo-paypal {
-  animation: shrinkLogo 2s ease infinite; /* Nombre de la animación, duración, función de temporización, repetición */
+  animation: shrinkLogo 2s ease infinite;
+
 }

@@ -1,15 +1,14 @@
 @mixin texto-pequeño {
-    font-size: 16px;
-    color: rgb(255, 255, 255)
-  }
-  
-  // Aplicando el mixin al título y a los enlaces dentro del título
-  .h1Titulo {
-    @include texto-pequeño;
-  }
-  
-  // Aplicando el mixin al contenedor .tituloReproductores
-  .tituloReproductores {
-    @include texto-pequeño;
-  }
-  
+  font-size: 16px;
+  color: rgb(255, 255, 255)
+}
+
+// Aplicando el mixin al título y a los enlaces dentro del título
+.h1Titulo {
+  @include texto-pequeño;
+}
+
+// Aplicando el mixin al contenedor .tituloReproductores
+.tituloReproductores {
+  @include texto-pequeño;
+}
