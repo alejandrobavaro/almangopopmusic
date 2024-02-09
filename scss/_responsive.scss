@@ -103,3 +103,9 @@
 }
 
 
+/* Estilos para resoluciones móviles */
+@media only screen and (max-width: 768px) {
+  .carruselContainer {
+    display: none; /* Oculta el carrusel en resoluciones móviles */
+  }
+}

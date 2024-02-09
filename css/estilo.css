@@ -406,6 +406,16 @@ main {
   justify-content: center;
 }
 
+.h1Titulo {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.tituloReproductores {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
 @media screen and (max-width: 420px) {
   .linksFooter div {
     margin-right: 0.3rem;
@@ -473,6 +483,12 @@ main {
   }
   .botonComprar {
     font-size: 14px;
+  }
+}
+/* Estilos para resoluciones móviles */
+@media only screen and (max-width: 768px) {
+  .carruselContainer {
+    display: none; /* Oculta el carrusel en resoluciones móviles */
   }
 }
 
