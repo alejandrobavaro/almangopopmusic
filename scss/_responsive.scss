@@ -44,6 +44,20 @@
 
 
 
+@media (max-width: 992px) {
+  #telefonoWhattsapp {
+    font-size: 1em; /* Reducir el tamaño del texto en pantallas medianas */
+  }
+}
+
+@media (max-width: 768px) {
+  #telefonoWhattsapp {
+    font-size: 1.2em; /* Reducir el tamaño del texto en pantallas pequeñas (mobile) */
+  }
+}
+
+
+
 
 //----------textos---------///
 
@@ -109,3 +123,5 @@
     display: none; /* Oculta el carrusel en resoluciones móviles */
   }
 }
+
+

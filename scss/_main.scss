@@ -101,14 +101,14 @@ main {
 }
 
 
-
-
-
 #telefonoWhattsapp {
-  font-size: x-large;
+  font-size: 1.1em; /* Tamaño base del texto */
   font-weight: bold;
   text-align: center;
+  white-space: nowrap; /* Evitar que el texto se envuelva a la siguiente línea */
 }
+
+
 
 
 .tarjetaGaleria {
@@ -145,30 +145,24 @@ main {
 
 /*******TIENDA********/
 
-/* Estilos para el botón de compra */
 .botonComprar {
-  padding: 8px 16px; /* Ajusta el espaciado interno */
-  font-size: 16px; /* Tamaño de la fuente */
-  border: 2px solid orangered; /* Borde del botón */
-  border-radius: 10px; /* Borde redondeado */
-  background-color: rgb(145, 87, 65); /* Color de fondo */
-  color: white; /* Color del texto */
-  cursor: pointer; /* Cambia el cursor al pasar por encima */
-  transition: all 0.3s ease; /* Animación suave al cambiar propiedades */
+  padding: 8px 16px; 
+  font-size: 16px; 
+  border: none;
+  border-radius: 10px; 
+  background-color: rgb(144, 67, 37); 
+  color: rgb(255, 255, 255); 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+  float: right; 
+  margin-top: 10px; 
 }
 
-/* Estilos para el botón al pasar el cursor */
 .botonComprar:hover {
   background-color: #ff5e00;
   color: #ffffff;
-  border: none
+  border: none;
 }
-
-
-
-
-
-
 
 
 
