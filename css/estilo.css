@@ -10,7 +10,6 @@ body {
 
 p {
   color: rgb(241, 225, 192);
-  text-align: justify;
 }
 
 h1 {
@@ -288,13 +287,6 @@ main {
   height: auto;
 }
 
-.tarjetaGaleria1 {
-  font-size: xx-large;
-  text-align: justify;
-  border-radius: 20px;
-  border: 5px orangered dotted;
-}
-
 /*******TIENDA********/
 .botonComprar {
   padding: 8px 16px;
@@ -321,6 +313,25 @@ main {
 
 .card1 {
   background: transparent;
+  border: 2px orangered solid;
+  font-size: small;
+  padding: 10px;
+}
+
+.card {
+  text-align: justify;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: none;
+}
+
+.tarjetaGaleria1 {
+  border-radius: 20px;
+}
+
+.card3 {
+  text-align: center;
 }
 
 .card-title {
@@ -334,6 +345,12 @@ main {
   text-transform: normal;
   font-size: small;
   text-align: center;
+}
+
+.imagenCard {
+  background: transparent;
+  border: none;
+  border-radius: 20px;
 }
 
 /*******REPRODUCTORES********/

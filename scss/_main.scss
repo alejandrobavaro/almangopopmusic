@@ -135,13 +135,7 @@ main {
 
 
 
-.tarjetaGaleria1 {
-  font-size: xx-large;
-  text-align: justify;
-  border-radius: 20px;
-  border: 5px orangered dotted;
 
-}
 
 
 
@@ -174,7 +168,26 @@ main {
 
 .card1 {
   background: transparent;
+  border: 2px orangered solid;
+  font-size: small;
+  padding: 10px;
 
+}
+
+.card {
+  text-align: justify;
+  background: transparent;
+  color: rgb(255, 255, 255); 
+  border-radius: 20px; 
+  border: none;
+}
+
+.tarjetaGaleria1 {
+  border-radius: 20px;
+}
+
+.card3{
+  text-align: center;
 }
 
 
@@ -191,7 +204,11 @@ main {
   text-align: center;
 }
 
-
+.imagenCard {
+    background: transparent;
+   border: none;
+  border-radius: 20px;
+}
 
 
 /*******REPRODUCTORES********/
