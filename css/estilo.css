@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-image: url(/img/03-img-body/fondo2.jpg);
+  background-image: url(/img/01-fondos/fondo2.jpg);
   background-color: black;
   background-repeat: repeat;
   background-position: center;
@@ -10,6 +10,7 @@ body {
 
 p {
   color: rgb(241, 225, 192);
+  font-size: small;
 }
 
 h1 {
@@ -312,11 +313,12 @@ main {
   font-size: 18px;
 }
 
-.card1 {
+.card4 {
   background: transparent;
-  border: 2px orangered solid;
+  border-radius: 20px;
   font-size: small;
   padding: 10px;
+  border: 2px rgba(255, 68, 0, 0.476) solid;
 }
 
 .card {
