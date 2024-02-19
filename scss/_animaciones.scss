@@ -1,0 +1,103 @@
+//------------ANIMACIONES---------------//
+
+@keyframes moveLogo {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.logo {
+    animation: moveLogo 2s ease infinite;
+}
+
+@keyframes resizeWelcome {
+    0% {
+        transform: scale(1);
+    }
+
+    /* Tamaño original */
+    50% {
+        transform: scale(1.1);
+    }
+
+    /* Tamaño agrandado */
+    100% {
+        transform: scale(1);
+    }
+}
+
+.welcome {
+    animation: resizeWelcome 2s ease infinite;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0);
+    }
+
+    /* Sin movimiento */
+    50% {
+        transform: translateX(2px);
+    }
+
+    /* Se mueve 10px hacia la derecha */
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.h2Titulo {
+    animation: moveText 2s ease infinite;
+}
+
+@keyframes shrinkLogo {
+    0% {
+        transform: scale(1);
+    }
+
+    /* Tamaño original */
+    50% {
+        transform: scale(0.9);
+    }
+
+    /* Se achica al 80% */
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Aplica la animación al logo */
+.navbar-brand img {
+    animation: shrinkLogo 2s ease infinite;
+}
+
+
+
+@keyframes shrinkLogo {
+    0% {
+        transform: scale(1);
+    }
+
+    /* Tamaño original */
+    50% {
+        transform: scale(0.8);
+    }
+
+    /* Se achica al 80% */
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Aplica la animación al logo */
+.logo-paypal {
+    animation: shrinkLogo 2s ease infinite;
+}

@@ -1,1 +1,37 @@
-@import "body", "footer", "header", "main", "mixin", "responsive";
+/* AQUI SE IMPORTA EL SASS AL CSS */
+
+// @import "animaciones";
+@import "animaciones";
+
+/* Estilos del cuerpo de la página */
+@import "body";
+
+// @import "cards";
+@import "cards";
+
+// @import "contacto";
+@import "contacto";
+
+/* Estilos del pie de página */
+@import "footer";
+
+// @import "formularios";
+@import "formularios";
+
+/* Estilos del encabezado de la página */
+@import "header";
+
+/* Estilos del contenido principal de la página */
+@import "main";
+
+/* Definiciones de mixins reutilizables */
+@import "mixin";
+
+/* Estilos responsivos para diferentes tamaños de pantalla */
+@import "responsive";
+
+// @import "tienda";
+@import "tienda";
+
+/* Estilos responsivos para diferentes tamaños de pantalla */
+@import "gridestructura";

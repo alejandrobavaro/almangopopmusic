@@ -7,7 +7,6 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
 p {
   color: rgb(241, 225, 192);
   font-size: small;
@@ -29,9 +28,7 @@ h3 {
 
 h4 {
   color: #e3baa5;
-
 }
-
 
 h5 {
   color: rgb(255, 255, 255);
@@ -61,7 +58,6 @@ ol {
   list-style-type: circle;
 }
 
-
 /* Link sin visitar todavia */
 a {
   &:link {
@@ -74,33 +70,4 @@ a {
     color: rgba(253, 255, 191, 0.53);
     text-decoration: none;
   }
-}
-
-.videos1 {
-  width: 100px;
-  height: 100px;
-}
-
-form {
-  background-color: rgba(255, 98, 0, 0.448);
-  width: 50%;
-  height: auto;
-  padding: 20px;
-  border: none;
-  border-radius: 20px;
-}
-
-.botonEnviar {
-  background-color: white;
-  border-style: none;
-  font-weight: bold;
-  color: orangered;
-  margin-top: 30px;
-  border: none;
-}
-
-.parrafoContacto {
-  font-size: large;
-  color: aqua;
-  text-align: center;
 }

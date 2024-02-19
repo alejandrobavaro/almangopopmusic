@@ -1,3 +1,5 @@
+/*Responsive Footer*/
+
 @media screen and (max-width: 420px) {
   .linksFooter div {
     margin-right: 0.3rem;
@@ -35,36 +37,28 @@
   }
 }
 
-
+/*Responsive Titulos*/
 @media (max-width: 768px) {
   .h1Titulo {
     font-size: 1.2em;
   }
 }
 
-
+/*Responsive texto telefono*/
 
 @media (max-width: 992px) {
   #telefonoWhattsapp {
     font-size: 1em;
-  
   }
 }
 
 @media (max-width: 768px) {
   #telefonoWhattsapp {
     font-size: 1.2em;
-  
   }
 }
 
-
-
-
 //----------textos---------///
-
-
-
 
 @media only screen and (max-width: 600px) {
   h1 {
@@ -80,13 +74,7 @@
   }
 }
 
-
-
-
 //-----------nav--------------//
-
-
-
 @media only screen and (max-width: 600px) {
   .navBar {
     font-size: large;
@@ -101,14 +89,7 @@
   }
 }
 
-
-
-
 //--------botones--------//
-
-
-
-
 @media only screen and (max-width: 600px) {
   .botonEnviar {
     font-size: 14px;
@@ -119,11 +100,8 @@
   }
 }
 
-
-
 @media only screen and (max-width: 768px) {
   .carruselContainer {
     display: none;
-
   }
 }

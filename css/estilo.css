@@ -1,448 +1,5 @@
 @charset "UTF-8";
-body {
-  background-image: url(/img/01-fondos/fondo2.jpg);
-  background-color: black;
-  background-repeat: repeat;
-  background-position: center;
-  background-size: cover;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-p {
-  color: rgb(241, 225, 192);
-  font-size: small;
-}
-
-h1 {
-  color: white;
-  font-size: large;
-}
-
-h2 {
-  color: aquamarine;
-  font-size: medium;
-}
-
-h3 {
-  color: rgb(255, 111, 0);
-}
-
-h4 {
-  color: #e3baa5;
-}
-
-h5 {
-  color: rgb(255, 255, 255);
-  font-style: normal;
-  margin-top: 11px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-h6 {
-  color: rgb(237, 228, 204);
-  font-style: normal;
-  margin-top: 11px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-li {
-  color: white;
-  font-size: medium;
-  list-style-type: none;
-}
-
-ol {
-  list-style-type: circle;
-}
-
-/* Link sin visitar todavia */
-a {
-  /* Link visitado */
-}
-a:link {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-a:visited {
-  color: rgba(253, 255, 191, 0.53);
-  text-decoration: none;
-}
-
-.videos1 {
-  width: 100px;
-  height: 100px;
-}
-
-form {
-  background-color: rgba(255, 98, 0, 0.448);
-  width: 50%;
-  height: auto;
-  padding: 20px;
-  border: none;
-  border-radius: 20px;
-}
-
-.botonEnviar {
-  background-color: white;
-  border-style: none;
-  font-weight: bold;
-  color: orangered;
-  margin-top: 30px;
-  border: none;
-}
-
-.parrafoContacto {
-  font-size: large;
-  color: aqua;
-  text-align: center;
-}
-
-footer {
-  font-size: 12px;
-  padding: 1%;
-  background-color: orangered;
-  color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
-  margin: 0;
-  text-align: center;
-  width: 100%;
-}
-
-.footerElements {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.linksFooter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 5rem;
-}
-.linksFooter div {
-  list-style: none;
-}
-
-.navBar {
-  background-color: orangered;
-  font-size: x-large;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  display: flex;
-  justify-content: center;
-}
-
-.navBardrop1,
-.navBardrop2 {
-  background-color: orangered;
-  border: none;
-  justify-content: center;
-  color: rgb(241, 225, 192);
-  font-size: x-large;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-.navBardrop2 {
-  font-size: large;
-}
-
-.menu-link:hover {
-  color: #000000;
-  /* Cambia el color a blanco al pasar el mouse */
-}
-
-.navBardrop2.dropdown-toggle.menu-link::after {
-  display: none !important;
-}
-
-.encabezado {
-  background-color: transparent;
-  align-items: center;
-  margin-top: 10px;
-}
-
-main {
-  border: 10px rgb(255, 255, 255);
-  align-items: center;
-}
-
-.colCostado1 {
-  height: auto;
-  max-width: 50%;
-}
-
-.logowhattsapp {
-  width: 10%;
-  cursor: pointer;
-}
-
-.mapaEstilo {
-  background-color: transparent;
-  color: rgb(255, 255, 255);
-  font-style: normal;
-  font-size: 20px;
-  width: "100%";
-  height: "600px";
-  padding: 20px;
-  border-radius: 20px;
-  border: 5px orangered solid;
-}
-
-.imagenCentro {
-  border: 3px orangered solid;
-  margin: 10px 80px;
-}
-
-.estiloFormulario {
-  background-color: transparent;
-  width: 100%;
-  height: auto;
-  font-family: "Cambria", "Cochin", "Georgia", "Times", "Times New Roman", serif;
-  font-size: 18px;
-  color: rgb(212, 211, 211);
-  font-weight: bold;
-  border: 3px solid #a2a1a1;
-  border-radius: 20px;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.estiloFormulario input {
-  background-color: rgba(212, 208, 208, 0.6549019608);
-  font-style: italic;
-  color: #FFF;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.estiloFormulario textarea {
-  background-color: rgba(212, 208, 208, 0.6549019608);
-  color: #FFF;
-  font-style: italic;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.botonEnviar {
-  background-color: #565656;
-  color: #ccbfb4;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-.botonEnviar:hover {
-  background-color: #4e4e4e;
-  color: #ffffff;
-  border: none;
-}
-
-.imagen-limitada {
-  width: 100%;
-  height: auto;
-  border: none;
-  border-radius: 20px;
-  margin-top: 40px;
-}
-
-.formularioContacto {
-  color: #b2fcff;
-  text-align: center;
-  font-size: medium;
-  font-weight: bold;
-  max-width: 100%;
-}
-
-#telefonoWhattsapp {
-  font-size: 1.1em;
-  /* Tamaño base del texto */
-  font-weight: bold;
-  text-align: center;
-  white-space: nowrap;
-  /* Evitar que el texto se envuelva a la siguiente línea */
-}
-
-.tarjetaGaleria {
-  background-color: transparent;
-  color: rgb(255, 255, 255);
-  font-style: normal;
-  font-size: 20px;
-  width: 100%;
-  padding: auto;
-  border-radius: 20px;
-  border-color: orangered;
-}
-
-.card-body {
-  max-height: 100%;
-}
-
-.card-img-top {
-  max-width: 100%;
-  height: auto;
-}
-
-/*******TIENDA********/
-.botonComprar {
-  padding: 8px 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 10px;
-  background-color: rgb(144, 67, 37);
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  transition: all 0.3s ease;
-  float: right;
-  margin-top: 10px;
-}
-
-.botonComprar:hover {
-  background-color: #ff5e00;
-  color: #ffffff;
-  border: none;
-}
-
-.botonEnviar {
-  font-size: 18px;
-}
-
-.card4 {
-  background: transparent;
-  border-radius: 20px;
-  font-size: small;
-  padding: 10px;
-  border: 2px rgba(255, 68, 0, 0.476) solid;
-}
-
-.card {
-  text-align: justify;
-  background: transparent;
-  color: rgb(255, 255, 255);
-  border-radius: 20px;
-  border: none;
-}
-
-.tarjetaGaleria1 {
-  border-radius: 20px;
-}
-
-.card3 {
-  text-align: center;
-}
-
-.card-title {
-  color: white;
-  text-transform: uppercase;
-  font-size: small;
-  text-align: center;
-}
-
-.card-title2 {
-  text-transform: normal;
-  font-size: small;
-  text-align: center;
-}
-
-.imagenCard {
-  background: transparent;
-  border: none;
-  border-radius: 20px;
-}
-
-/*******REPRODUCTORES********/
-.tituloReproductores {
-  text-align: center;
-  color: orangered;
-}
-
-.h1Titulo {
-  color: white;
-  background: linear-gradient(black, orangered);
-  font-size: x-large;
-  border: none;
-  border-radius: 20px;
-  font-weight: bold;
-}
-
-.h2Titulo {
-  color: aquamarine;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  text-transform: uppercase;
-  font-size: medium;
-  border: 2px orangered solid;
-  border-radius: 20px;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-}
-
-.padreReproductores {
-  border: 3px orangered solid;
-  border-radius: 20px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.hijoCardAlineacion {
-  display: inline-block;
-  margin: 10px 10px;
-  padding: 10px;
-  margin: auto;
-}
-
-.gridEstilo1 {
-  color: white;
-  border-radius: 20px;
-  border: 3px orangered solid;
-  font-size: x-large;
-}
-
-.gridChordspadre {
-  display: flex;
-  justify-content: center;
-}
-
-.gridChords {
-  border: 3px orangered solid;
-  border-radius: 20px;
-  color: aqua;
-}
-
-.botonesEnlinea {
-  display: inline-block;
-}
-
-.item {
-  max-width: 20px;
-  max-height: auto;
-}
-
-.tarjetaChords1 {
-  width: 100%;
-  height: auto;
-  align-items: center;
-}
-
-.objetoCentrado {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 350px;
-}
-
-.objetoCentrado1 {
-  display: flex;
-  justify-content: center;
-}
-
+/* AQUI SE IMPORTA EL SASS AL CSS */
 @keyframes moveLogo {
   0% {
     transform: translateX(0);
@@ -528,6 +85,388 @@ main {
   animation: shrinkLogo 2s ease infinite;
 }
 
+/* Estilos del cuerpo de la página */
+body {
+  background-image: url(/img/01-fondos/fondo2.jpg);
+  background-color: black;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p {
+  color: rgb(241, 225, 192);
+  font-size: small;
+}
+
+h1 {
+  color: white;
+  font-size: large;
+}
+
+h2 {
+  color: aquamarine;
+  font-size: medium;
+}
+
+h3 {
+  color: rgb(255, 111, 0);
+}
+
+h4 {
+  color: #e3baa5;
+}
+
+h5 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  margin-top: 11px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h6 {
+  color: rgb(237, 228, 204);
+  font-style: normal;
+  margin-top: 11px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+li {
+  color: white;
+  font-size: medium;
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: circle;
+}
+
+/* Link sin visitar todavia */
+a {
+  /* Link visitado */
+}
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:visited {
+  color: rgba(253, 255, 191, 0.53);
+  text-decoration: none;
+}
+
+.card-body {
+  max-height: 100%;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+.tarjetaGaleria {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 20px;
+  width: 100%;
+  padding: auto;
+  border-radius: 20px;
+  border-color: orangered;
+}
+
+.card4 {
+  background: transparent;
+  border-radius: 20px;
+  font-size: small;
+  padding: 10px;
+  border: 2px rgba(255, 68, 0, 0.476) solid;
+}
+
+.card {
+  text-align: justify;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: none;
+}
+
+.tarjetaGaleria1 {
+  border-radius: 20px;
+}
+
+.card3 {
+  text-align: center;
+}
+
+.card-title {
+  color: white;
+  text-transform: uppercase;
+  font-size: small;
+  text-align: center;
+}
+
+.card-title2 {
+  text-transform: normal;
+  font-size: small;
+  text-align: center;
+}
+
+.imagenCard {
+  background: transparent;
+  border: none;
+  border-radius: 20px;
+}
+
+.hijoCardAlineacion {
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 10px;
+  margin: auto;
+}
+
+.tarjetaChords1 {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+/*Estilo Contactos*/
+.logowhattsapp {
+  width: 10%;
+  cursor: pointer;
+}
+
+#telefonoWhattsapp {
+  font-size: 1.1em;
+  /* Tamaño base del texto */
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  /* Evitar que el texto se envuelva a la siguiente línea */
+}
+
+.parrafoContacto {
+  font-size: large;
+  color: aqua;
+  text-align: center;
+}
+
+/*Estilo Mapa*/
+.mapaEstilo {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 20px;
+  width: "100%";
+  height: "600px";
+  padding: 20px;
+  border-radius: 20px;
+  border: 5px orangered solid;
+}
+
+/* Estilos del pie de página */
+footer {
+  font-size: 12px;
+  padding: 1%;
+  background-color: orangered;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footerElements {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.linksFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5rem;
+}
+.linksFooter div {
+  list-style: none;
+}
+
+form {
+  background-color: rgba(255, 98, 0, 0.448);
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.formularioContacto {
+  color: #b2fcff;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  max-width: 100%;
+}
+
+.estiloFormulario {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  font-family: "Cambria", "Cochin", "Georgia", "Times", "Times New Roman", serif;
+  font-size: 18px;
+  color: rgb(212, 211, 211);
+  font-weight: bold;
+  border: 3px solid #a2a1a1;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.estiloFormulario input {
+  background-color: rgba(212, 208, 208, 0.6549019608);
+  font-style: italic;
+  color: #FFF;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.estiloFormulario textarea {
+  background-color: rgba(212, 208, 208, 0.6549019608);
+  color: #FFF;
+  font-style: italic;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/*******BOTON ENVIAR********/
+.botonEnviar {
+  background-color: #565656;
+  font-size: 18px;
+  color: orangered;
+  border: none;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.botonEnviar:hover {
+  background-color: #565656;
+  color: #ffffff;
+  border: none;
+}
+
+/* Estilos del encabezado de la página */
+/*Estilos Header*/
+.encabezado {
+  background-color: transparent;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/*Estilos Nav*/
+.navBar {
+  background-color: orangered;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: center;
+}
+
+.navBardrop1,
+.navBardrop2 {
+  background-color: orangered;
+  border: none;
+  justify-content: center;
+  color: rgb(241, 225, 192);
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.navBardrop2 {
+  font-size: large;
+}
+
+.menu-link:hover {
+  color: #000000;
+  /* Cambia el color a blanco al pasar el mouse */
+}
+
+.navBardrop2.dropdown-toggle.menu-link::after {
+  display: none !important;
+}
+
+/* Estilos del contenido principal de la página */
+/*Estilos Main*/
+main {
+  border: none;
+  align-items: center;
+}
+
+/*OBJETOS CENTRADOS - IMAGENES LIMITADAS*/
+.objetoCentrado {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+}
+
+.objetoCentrado1 {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-limitada {
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+/*******TITULOS********/
+.h1Titulo {
+  color: white;
+  background: linear-gradient(black, orangered);
+  font-size: x-large;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.h2Titulo {
+  color: aquamarine;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-size: medium;
+  border: 2px orangered solid;
+  border-radius: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.tituloReproductores {
+  text-align: center;
+  color: orangered;
+}
+
+.item {
+  max-width: 20px;
+  max-height: auto;
+}
+
+/* Definiciones de mixins reutilizables */
 .h1Titulo {
   font-size: 16px;
   color: rgb(255, 255, 255);
@@ -538,6 +477,8 @@ main {
   color: rgb(255, 255, 255);
 }
 
+/* Estilos responsivos para diferentes tamaños de pantalla */
+/*Responsive Footer*/
 @media screen and (max-width: 420px) {
   .linksFooter div {
     margin-right: 0.3rem;
@@ -569,11 +510,13 @@ main {
     margin-bottom: 0.5rem;
   }
 }
+/*Responsive Titulos*/
 @media (max-width: 768px) {
   .h1Titulo {
     font-size: 1.2em;
   }
 }
+/*Responsive texto telefono*/
 @media (max-width: 992px) {
   #telefonoWhattsapp {
     font-size: 1em;
@@ -618,6 +561,52 @@ main {
   .carruselContainer {
     display: none;
   }
+}
+/*******BOTON COMPRAR********/
+.botonComprar {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #565656;
+  color: orangered;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-top: 10px;
+}
+
+.botonComprar:hover {
+  background-color: #7e7c7c;
+  color: #ffffff;
+  border: none;
+}
+
+/* Estilos responsivos para diferentes tamaños de pantalla */
+.padreReproductores {
+  border: 3px orangered solid;
+  border-radius: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.gridEstilo1 {
+  color: white;
+  border-radius: 20px;
+  border: 3px orangered solid;
+  font-size: x-large;
+}
+
+.gridChordspadre {
+  display: flex;
+  justify-content: center;
+}
+
+.gridChords {
+  border: 3px orangered solid;
+  border-radius: 20px;
+  color: aqua;
 }
 
 /*# sourceMappingURL=estilo.css.map */

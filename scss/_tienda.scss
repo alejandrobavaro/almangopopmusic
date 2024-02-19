@@ -1,0 +1,20 @@
+/*******BOTON COMPRAR********/
+
+.botonComprar {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #565656;
+    color: orangered;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    float: right;
+    margin-top: 10px;
+}
+
+.botonComprar:hover {
+    background-color: #7e7c7c;
+    color: #ffffff;
+    border: none
+}

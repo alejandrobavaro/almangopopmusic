@@ -1,88 +1,22 @@
+/*Estilos Main*/
 main {
-  border: 10px rgb(255, 255, 255);
+  border: none;
   align-items: center;
 }
 
-.colCostado1 {
-  height: auto;
-  max-width: 50%;
-}
+/*OBJETOS CENTRADOS - IMAGENES LIMITADAS*/
 
-.logowhattsapp {
-  width: 10%;
-
-  cursor: pointer;
-}
-
-
-.mapaEstilo {
-  background-color: transparent;
-  color: rgb(255, 255, 255);
-  font-style: normal;
-  font-size: 20px;
-  width: "100%";
-  height: "600px";
-  padding: 20px;
-  border-radius: 20px;
-  border: 5px orangered solid;
-}
-
-.imagenCentro {
-  border: 3px orangered solid;
-  margin: 10px 80px;
-}
-
-.estiloFormulario {
-  background-color: transparent;
+.objetoCentrado {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: auto;
-  font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
-  font-size: 18px;
-  color: rgb(212, 211, 211);
-  font-weight: bold;
-  border: 3px solid #a2a1a1;
-  border-radius: 20px;
-  padding: 20px;
-  margin-top: 20px;
+  height: 350px;
 }
 
-
-.estiloFormulario input {
-  background-color: #d4d0d0a7;
-  font-style: italic;
-  color: #FFF;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
+.objetoCentrado1 {
+  display: flex;
+  justify-content: center;
 }
-
-
-.estiloFormulario textarea {
-  background-color: #d4d0d0a7;
-  color: #FFF;
-  font-style: italic;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.botonEnviar {
-  background-color: #565656;
-  color: #ccbfb4;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-.botonEnviar:hover {
-  background-color: #4e4e4e;
-  color: #ffffff;
-  border: none
-}
-
 
 .imagen-limitada {
   width: 100%;
@@ -92,136 +26,7 @@ main {
   margin-top: 40px;
 }
 
-
-.formularioContacto {
-  color: #b2fcff;
-  text-align: center;
-  font-size: medium;
-  font-weight: bold;
-  max-width: 100%;
-}
-
-
-#telefonoWhattsapp {
-  font-size: 1.1em;
-  /* Tamaño base del texto */
-  font-weight: bold;
-  text-align: center;
-  white-space: nowrap;
-  /* Evitar que el texto se envuelva a la siguiente línea */
-}
-
-
-
-
-.tarjetaGaleria {
-  background-color: transparent;
-  color: rgb(255, 255, 255);
-  font-style: normal;
-  font-size: 20px;
-  width: 100%;
-  padding: auto;
-  border-radius: 20px;
-  border-color: orangered;
-}
-
-.card-body {
-  max-height: 100%;
-}
-
-.card-img-top {
-  max-width: 100%;
-  height: auto;
-}
-
-
-
-
-
-
-
-/*******TIENDA********/
-
-.botonComprar {
-  padding: 8px 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 10px;
-  background-color: rgb(144, 67, 37);
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  transition: all 0.3s ease;
-  float: right;
-  margin-top: 10px;
-}
-
-.botonComprar:hover {
-  background-color: #ff5e00;
-  color: #ffffff;
-  border: none;
-}
-
-
-
-.botonEnviar {
-  font-size: 18px;
-}
-
-.card4 {
-  background: transparent;
-  border-radius: 20px; 
-  font-size: small;
-  padding: 10px;
-  border: 2px rgba(255, 68, 0, 0.476) solid;
-}
-
-.card {
-  text-align: justify;
-  background: transparent;
-  color: rgb(255, 255, 255); 
-  border-radius: 20px; 
-  border: none;
-  
-}
-
-.tarjetaGaleria1 {
-  border-radius: 20px;
-  
-}
-
-.card3{
-  text-align: center;
-}
-
-
-.card-title {
-  color: white;
-  text-transform: uppercase;
-  font-size: small;
-  text-align: center;
-}
-
-.card-title2 {
-  text-transform: normal;
-  font-size: small;
-  text-align: center;
-}
-
-.imagenCard {
-    background: transparent;
-   border: none;
-  border-radius: 20px;
-}
-
-
-/*******REPRODUCTORES********/
-
-.tituloReproductores {
-  text-align: center;
-  color: orangered;
-}
-
-
+/*******TITULOS********/
 
 .h1Titulo {
   color: white;
@@ -244,192 +49,12 @@ main {
   justify-content: center;
 }
 
-.padreReproductores {
-  border: 3px orangered solid;
-  border-radius: 20px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.hijoCardAlineacion {
-  display: inline-block;
-  margin: 10px 10px;
-  padding: 10px;
-  margin: auto;
-}
-
-.gridEstilo1 {
-  color: white;
-  border-radius: 20px;
-  border: 3px orangered solid;
-  font-size: x-large;
-}
-
-.gridChordspadre {
-  display: flex;
-  justify-content: center;
-}
-
-.gridChords {
-  border: 3px orangered solid;
-  border-radius: 20px;
-  color: aqua;
-}
-
-.botonesEnlinea {
-  display: inline-block;
- 
+.tituloReproductores {
+  text-align: center;
+  color: orangered;
 }
 
 .item {
-max-width: 20px;
-max-height: auto;
-}
-
-
-
-
-.tarjetaChords1 {
-  width: 100%;
-  height: auto;
-  align-items: center;
-}
-
-
-.objetoCentrado {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 350px;
-}
-
-
-.objetoCentrado1 {
-  display: flex;
-  justify-content: center;
-}
-
-
-//------------animacion---------------//
-
-
-@keyframes moveLogo {
-  0% {
-    transform: translateX(0);
-  }
-
-  50% {
-    transform: translateX(10px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.logo {
-  animation: moveLogo 2s ease infinite;
-
-}
-
-
-
-@keyframes resizeWelcome {
-  0% {
-    transform: scale(1);
-  }
-
-  /* Tamaño original */
-  50% {
-    transform: scale(1.1);
-  }
-
-  /* Tamaño agrandado */
-  100% {
-    transform: scale(1);
-  }
-
-  
-}
-
-
-.welcome {
-  animation: resizeWelcome 2s ease infinite;
-
-}
-
-
-@keyframes moveText {
-  0% {
-    transform: translateX(0);
-  }
-
-  /* Sin movimiento */
-  50% {
-    transform: translateX(2px);
-  }
-
-  /* Se mueve 10px hacia la derecha */
-  100% {
-    transform: translateX(0);
-  }
-
-
-}
-
-
-.h2Titulo {
-  animation: moveText 2s ease infinite;
-
-}
-
-
-@keyframes shrinkLogo {
-  0% {
-    transform: scale(1);
-  }
-
-  /* Tamaño original */
-  50% {
-    transform: scale(0.9);
-  }
-
-  /* Se achica al 80% */
-  100% {
-    transform: scale(1);
-  }
-
-
-}
-
-/* Aplica la animación al logo */
-.navbar-brand img {
-  animation: shrinkLogo 2s ease infinite;
-
-}
-
-
-
-@keyframes shrinkLogo {
-  0% {
-    transform: scale(1);
-  }
-
-  /* Tamaño original */
-  50% {
-    transform: scale(0.8);
-  }
-
-  /* Se achica al 80% */
-  100% {
-    transform: scale(1);
-  }
-
-}
-
-/* Aplica la animación al logo */
-.logo-paypal {
-  animation: shrinkLogo 2s ease infinite;
-
+  max-width: 20px;
+  max-height: auto;
 }

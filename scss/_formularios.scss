@@ -1,0 +1,81 @@
+form {
+    background-color: rgba(255, 98, 0, 0.448);
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+.formularioContacto {
+    color: #b2fcff;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.estiloFormulario {
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-size: 18px;
+    color: rgb(212, 211, 211);
+    font-weight: bold;
+    border: 3px solid #a2a1a1;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.estiloFormulario input {
+    background-color: #d4d0d0a7;
+    font-style: italic;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.estiloFormulario textarea {
+    background-color: #d4d0d0a7;
+    color: #FFF;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*******BOTON ENVIAR********/
+
+.botonEnviar {
+    background-color: #565656;
+    font-size: 18px;
+    color: orangered;
+    border: none;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.botonEnviar:hover {
+    background-color: #565656;
+    color: #ffffff;
+    border: none
+}

@@ -1,0 +1,35 @@
+/*Estilo Contactos*/
+
+.logowhattsapp {
+    width: 10%;
+    cursor: pointer;
+}
+
+#telefonoWhattsapp {
+    font-size: 1.1em;
+    /* Tamaño base del texto */
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    /* Evitar que el texto se envuelva a la siguiente línea */
+}
+
+.parrafoContacto {
+    font-size: large;
+    color: aqua;
+    text-align: center;
+}
+
+/*Estilo Mapa*/
+
+.mapaEstilo {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 20px;
+    width: "100%";
+    height: "600px";
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px orangered solid;
+}
