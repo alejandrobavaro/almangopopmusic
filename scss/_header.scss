@@ -38,3 +38,15 @@
 .navBardrop2.dropdown-toggle.menu-link::after {
   display: none !important;
 }
+
+//*FLECHAS DEL MENU*//
+
+/* Oculta la flecha después de los elementos del menú desplegable */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* CSS personalizado para ocultar la flecha del dropdown */
+.no-caret::after {
+  display: none;
+}

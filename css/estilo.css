@@ -406,6 +406,16 @@ form {
   display: none !important;
 }
 
+/* Oculta la flecha después de los elementos del menú desplegable */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* CSS personalizado para ocultar la flecha del dropdown */
+.no-caret::after {
+  display: none;
+}
+
 /* Estilos del contenido principal de la página */
 /*Estilos Main*/
 main {
